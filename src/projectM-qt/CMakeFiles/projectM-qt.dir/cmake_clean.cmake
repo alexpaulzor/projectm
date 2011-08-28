@@ -1,0 +1,43 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.o"
+  "CMakeFiles/projectM-qt.dir/configfile.o"
+  "CMakeFiles/projectM-qt.dir/qplaylistfiledialog.o"
+  "CMakeFiles/projectM-qt.dir/qplaylistmodel.o"
+  "CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.o"
+  "CMakeFiles/projectM-qt.dir/qpresettextedit.o"
+  "CMakeFiles/projectM-qt.dir/qpreseteditordialog.o"
+  "CMakeFiles/projectM-qt.dir/qrc_application.o"
+  "CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.o"
+  "CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.o"
+  "CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.o"
+  "CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.o"
+  "CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.o"
+  "CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.o"
+  "CMakeFiles/projectM-qt.dir/moc_qpresettextedit.o"
+  "CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.o"
+  "CMakeFiles/projectM-qt.dir/moc_qprojectm.o"
+  "CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.o"
+  "qrc_application.cxx"
+  "moc_qprojectm_mainwindow.cxx"
+  "moc_qpresetfiledialog.cxx"
+  "moc_qplaylistfiledialog.cxx"
+  "moc_qplaylistmodel.cxx"
+  "moc_qprojectmconfigdialog.cxx"
+  "moc_qplaylisttableview.cxx"
+  "moc_qpresettextedit.cxx"
+  "moc_qpreseteditordialog.cxx"
+  "moc_qprojectm.cxx"
+  "moc_qprojectmwidget.cxx"
+  "ui_qprojectm_mainwindow.h"
+  "ui_qprojectmconfigdialog.h"
+  "ui_qpreseteditordialog.h"
+  "libprojectM-qt.pdb"
+  "libprojectM-qt.so"
+  "libprojectM-qt.so.1.10"
+  "libprojectM-qt.so.1"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/projectM-qt.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

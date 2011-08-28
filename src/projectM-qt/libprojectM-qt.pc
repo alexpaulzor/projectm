@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=
+includedir=/usr/local/include
+pkgdatadir=/usr/local/share/projectM-qt
+sysconfdir=/usr/local/share/projectM-qt
+
+Name: libprojectM-qt
+Version: 1.2.0
+Description: projectM-qt provides a full featured Qt4 graphical user interface to projectM
+Requires: libprojectM QtCore QtGui QtXml QtOpenGL
++Libs: -L${libdir} -lprojectM-qt
++Cflags: -I${includedir} 

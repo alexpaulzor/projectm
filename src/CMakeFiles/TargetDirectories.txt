@@ -1,0 +1,15 @@
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/CMakeFiles/MstressJuppyDancer.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/NativePresetFactory/CMakeFiles/NativePresetFactory.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/CMakeFiles/Renderer.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/CMakeFiles/RovastarDarkSecret.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/CMakeFiles/RovastarDriftingChaos.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/CMakeFiles/RovastarFractalSpiral.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/CMakeFiles/projectM.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/CMakeFiles/projectM-qt.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/CMakeFiles/projectM-test.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/CMakeFiles/projectM-test-memleak.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/CMakeFiles/projectM-test-texture.dir
+/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/CMakeFiles/projectM_libvisual.dir
