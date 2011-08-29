@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 # Include any dependencies generated for this target.
 include projectM-qt/CMakeFiles/projectM-qt.dir/depend.make
@@ -51,17 +51,17 @@ include projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.o: projectM-qt/qprojectm_mainwindow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm_mainwindow.cpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.o -c /home/apaul/src/projectm/src/projectM-qt/qprojectm_mainwindow.cpp
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm_mainwindow.cpp > CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/qprojectm_mainwindow.cpp > CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm_mainwindow.cpp -o CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/qprojectm_mainwindow.cpp -o CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.o.requires
@@ -74,17 +74,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.o.provides.build: pr
 
 projectM-qt/CMakeFiles/projectM-qt.dir/configfile.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/configfile.o: projectM-qt/configfile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/configfile.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/configfile.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/configfile.cpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/configfile.o -c /home/apaul/src/projectm/src/projectM-qt/configfile.cpp
 
 projectM-qt/CMakeFiles/projectM-qt.dir/configfile.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/configfile.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/configfile.cpp > CMakeFiles/projectM-qt.dir/configfile.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/configfile.cpp > CMakeFiles/projectM-qt.dir/configfile.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/configfile.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/configfile.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/configfile.cpp -o CMakeFiles/projectM-qt.dir/configfile.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/configfile.cpp -o CMakeFiles/projectM-qt.dir/configfile.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/configfile.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/configfile.o.requires
@@ -97,17 +97,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/configfile.o.provides.build: projectM-qt/
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.o: projectM-qt/qplaylistfiledialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qplaylistfiledialog.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistfiledialog.cpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qplaylistfiledialog.o -c /home/apaul/src/projectm/src/projectM-qt/qplaylistfiledialog.cpp
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/qplaylistfiledialog.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistfiledialog.cpp > CMakeFiles/projectM-qt.dir/qplaylistfiledialog.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/qplaylistfiledialog.cpp > CMakeFiles/projectM-qt.dir/qplaylistfiledialog.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/qplaylistfiledialog.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistfiledialog.cpp -o CMakeFiles/projectM-qt.dir/qplaylistfiledialog.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/qplaylistfiledialog.cpp -o CMakeFiles/projectM-qt.dir/qplaylistfiledialog.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.o.requires
@@ -120,17 +120,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.o.provides.build: pro
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.o: projectM-qt/qplaylistmodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qplaylistmodel.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistmodel.cpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qplaylistmodel.o -c /home/apaul/src/projectm/src/projectM-qt/qplaylistmodel.cpp
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/qplaylistmodel.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistmodel.cpp > CMakeFiles/projectM-qt.dir/qplaylistmodel.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/qplaylistmodel.cpp > CMakeFiles/projectM-qt.dir/qplaylistmodel.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/qplaylistmodel.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistmodel.cpp -o CMakeFiles/projectM-qt.dir/qplaylistmodel.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/qplaylistmodel.cpp -o CMakeFiles/projectM-qt.dir/qplaylistmodel.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.o.requires
@@ -143,17 +143,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.o.provides.build: projectM
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.o: projectM-qt/qprojectmconfigdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmconfigdialog.cpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.o -c /home/apaul/src/projectm/src/projectM-qt/qprojectmconfigdialog.cpp
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmconfigdialog.cpp > CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/qprojectmconfigdialog.cpp > CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmconfigdialog.cpp -o CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/qprojectmconfigdialog.cpp -o CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.o.requires
@@ -166,17 +166,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.o.provides.build: p
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.o: projectM-qt/qpresettextedit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qpresettextedit.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresettextedit.cpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qpresettextedit.o -c /home/apaul/src/projectm/src/projectM-qt/qpresettextedit.cpp
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/qpresettextedit.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresettextedit.cpp > CMakeFiles/projectM-qt.dir/qpresettextedit.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/qpresettextedit.cpp > CMakeFiles/projectM-qt.dir/qpresettextedit.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/qpresettextedit.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresettextedit.cpp -o CMakeFiles/projectM-qt.dir/qpresettextedit.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/qpresettextedit.cpp -o CMakeFiles/projectM-qt.dir/qpresettextedit.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.o.requires
@@ -189,17 +189,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.o.provides.build: project
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.o: projectM-qt/qpreseteditordialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qpreseteditordialog.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpreseteditordialog.cpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qpreseteditordialog.o -c /home/apaul/src/projectm/src/projectM-qt/qpreseteditordialog.cpp
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/qpreseteditordialog.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpreseteditordialog.cpp > CMakeFiles/projectM-qt.dir/qpreseteditordialog.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/qpreseteditordialog.cpp > CMakeFiles/projectM-qt.dir/qpreseteditordialog.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/qpreseteditordialog.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpreseteditordialog.cpp -o CMakeFiles/projectM-qt.dir/qpreseteditordialog.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/qpreseteditordialog.cpp -o CMakeFiles/projectM-qt.dir/qpreseteditordialog.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.o.requires
@@ -212,17 +212,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.o.provides.build: pro
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.o: projectM-qt/qrc_application.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qrc_application.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qrc_application.cxx
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/qrc_application.o -c /home/apaul/src/projectm/src/projectM-qt/qrc_application.cxx
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/qrc_application.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qrc_application.cxx > CMakeFiles/projectM-qt.dir/qrc_application.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/qrc_application.cxx > CMakeFiles/projectM-qt.dir/qrc_application.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/qrc_application.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qrc_application.cxx -o CMakeFiles/projectM-qt.dir/qrc_application.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/qrc_application.cxx -o CMakeFiles/projectM-qt.dir/qrc_application.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.o.requires
@@ -235,17 +235,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.o.provides.build: project
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.o: projectM-qt/moc_qprojectm_mainwindow.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectm_mainwindow.cxx
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.o -c /home/apaul/src/projectm/src/projectM-qt/moc_qprojectm_mainwindow.cxx
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectm_mainwindow.cxx > CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/moc_qprojectm_mainwindow.cxx > CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectm_mainwindow.cxx -o CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/moc_qprojectm_mainwindow.cxx -o CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.o.requires
@@ -258,17 +258,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.o.provides.build
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.o: projectM-qt/moc_qpresetfiledialog.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpresetfiledialog.cxx
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.o -c /home/apaul/src/projectm/src/projectM-qt/moc_qpresetfiledialog.cxx
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpresetfiledialog.cxx > CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/moc_qpresetfiledialog.cxx > CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpresetfiledialog.cxx -o CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/moc_qpresetfiledialog.cxx -o CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.o.requires
@@ -281,17 +281,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.o.provides.build: p
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.o: projectM-qt/moc_qplaylistfiledialog.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylistfiledialog.cxx
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.o -c /home/apaul/src/projectm/src/projectM-qt/moc_qplaylistfiledialog.cxx
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylistfiledialog.cxx > CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/moc_qplaylistfiledialog.cxx > CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylistfiledialog.cxx -o CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/moc_qplaylistfiledialog.cxx -o CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.o.requires
@@ -304,17 +304,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.o.provides.build:
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.o: projectM-qt/moc_qplaylistmodel.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylistmodel.cxx
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.o -c /home/apaul/src/projectm/src/projectM-qt/moc_qplaylistmodel.cxx
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylistmodel.cxx > CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/moc_qplaylistmodel.cxx > CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylistmodel.cxx -o CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/moc_qplaylistmodel.cxx -o CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.o.requires
@@ -327,17 +327,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.o.provides.build: proj
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.o: projectM-qt/moc_qprojectmconfigdialog.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectmconfigdialog.cxx
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.o -c /home/apaul/src/projectm/src/projectM-qt/moc_qprojectmconfigdialog.cxx
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectmconfigdialog.cxx > CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/moc_qprojectmconfigdialog.cxx > CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectmconfigdialog.cxx -o CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/moc_qprojectmconfigdialog.cxx -o CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.o.requires
@@ -350,17 +350,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.o.provides.buil
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.o: projectM-qt/moc_qplaylisttableview.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylisttableview.cxx
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.o -c /home/apaul/src/projectm/src/projectM-qt/moc_qplaylisttableview.cxx
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylisttableview.cxx > CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/moc_qplaylisttableview.cxx > CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylisttableview.cxx -o CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/moc_qplaylisttableview.cxx -o CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.o.requires
@@ -373,17 +373,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.o.provides.build: 
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.o: projectM-qt/moc_qpresettextedit.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qpresettextedit.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpresettextedit.cxx
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qpresettextedit.o -c /home/apaul/src/projectm/src/projectM-qt/moc_qpresettextedit.cxx
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/moc_qpresettextedit.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpresettextedit.cxx > CMakeFiles/projectM-qt.dir/moc_qpresettextedit.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/moc_qpresettextedit.cxx > CMakeFiles/projectM-qt.dir/moc_qpresettextedit.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/moc_qpresettextedit.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpresettextedit.cxx -o CMakeFiles/projectM-qt.dir/moc_qpresettextedit.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/moc_qpresettextedit.cxx -o CMakeFiles/projectM-qt.dir/moc_qpresettextedit.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.o.requires
@@ -396,17 +396,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.o.provides.build: pro
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.o: projectM-qt/moc_qpreseteditordialog.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpreseteditordialog.cxx
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.o -c /home/apaul/src/projectm/src/projectM-qt/moc_qpreseteditordialog.cxx
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpreseteditordialog.cxx > CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/moc_qpreseteditordialog.cxx > CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpreseteditordialog.cxx -o CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/moc_qpreseteditordialog.cxx -o CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.o.requires
@@ -419,17 +419,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.o.provides.build:
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.o: projectM-qt/moc_qprojectm.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qprojectm.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectm.cxx
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qprojectm.o -c /home/apaul/src/projectm/src/projectM-qt/moc_qprojectm.cxx
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/moc_qprojectm.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectm.cxx > CMakeFiles/projectM-qt.dir/moc_qprojectm.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/moc_qprojectm.cxx > CMakeFiles/projectM-qt.dir/moc_qprojectm.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/moc_qprojectm.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectm.cxx -o CMakeFiles/projectM-qt.dir/moc_qprojectm.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/moc_qprojectm.cxx -o CMakeFiles/projectM-qt.dir/moc_qprojectm.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.o.requires
@@ -442,17 +442,17 @@ projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.o.provides.build: projectM-
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.o: projectM-qt/CMakeFiles/projectM-qt.dir/flags.make
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.o: projectM-qt/moc_qprojectmwidget.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectmwidget.cxx
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.o -c /home/apaul/src/projectm/src/projectM-qt/moc_qprojectmwidget.cxx
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectmwidget.cxx > CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.i
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-qt/moc_qprojectmwidget.cxx > CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.i
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectmwidget.cxx -o CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.s
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-qt/moc_qprojectmwidget.cxx -o CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.s
 
 projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.o.requires:
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.o.requires
@@ -480,74 +480,74 @@ projectM-qt/qrc_application.cxx: projectM-qt/images/icons/rating-4.png
 projectM-qt/qrc_application.cxx: projectM-qt/images/icons/rating-5.png
 projectM-qt/qrc_application.cxx: projectM-qt/application.qrc.depends
 projectM-qt/qrc_application.cxx: projectM-qt/application.qrc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_application.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/rcc -name application -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qrc_application.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/application.qrc
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/rcc -name application -o /home/apaul/src/projectm/src/projectM-qt/qrc_application.cxx /home/apaul/src/projectm/src/projectM-qt/application.qrc
 
 projectM-qt/moc_qprojectm_mainwindow.cxx: projectM-qt/qprojectm_mainwindow.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_qprojectm_mainwindow.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/moc -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectm_mainwindow.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm_mainwindow.hpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/moc -I/home/apaul/src/projectm/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/src/projectm/src/projectM-qt/moc_qprojectm_mainwindow.cxx /home/apaul/src/projectm/src/projectM-qt/qprojectm_mainwindow.hpp
 
 projectM-qt/moc_qpresetfiledialog.cxx: projectM-qt/qpresetfiledialog.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_qpresetfiledialog.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/moc -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpresetfiledialog.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresetfiledialog.hpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/moc -I/home/apaul/src/projectm/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/src/projectm/src/projectM-qt/moc_qpresetfiledialog.cxx /home/apaul/src/projectm/src/projectM-qt/qpresetfiledialog.hpp
 
 projectM-qt/moc_qplaylistfiledialog.cxx: projectM-qt/qplaylistfiledialog.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_qplaylistfiledialog.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/moc -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylistfiledialog.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistfiledialog.hpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/moc -I/home/apaul/src/projectm/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/src/projectm/src/projectM-qt/moc_qplaylistfiledialog.cxx /home/apaul/src/projectm/src/projectM-qt/qplaylistfiledialog.hpp
 
 projectM-qt/moc_qplaylistmodel.cxx: projectM-qt/qplaylistmodel.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_qplaylistmodel.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/moc -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylistmodel.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistmodel.hpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/moc -I/home/apaul/src/projectm/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/src/projectm/src/projectM-qt/moc_qplaylistmodel.cxx /home/apaul/src/projectm/src/projectM-qt/qplaylistmodel.hpp
 
 projectM-qt/moc_qprojectmconfigdialog.cxx: projectM-qt/qprojectmconfigdialog.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_qprojectmconfigdialog.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/moc -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectmconfigdialog.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmconfigdialog.hpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/moc -I/home/apaul/src/projectm/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/src/projectm/src/projectM-qt/moc_qprojectmconfigdialog.cxx /home/apaul/src/projectm/src/projectM-qt/qprojectmconfigdialog.hpp
 
 projectM-qt/moc_qplaylisttableview.cxx: projectM-qt/qplaylisttableview.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_qplaylisttableview.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/moc -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylisttableview.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylisttableview.hpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/moc -I/home/apaul/src/projectm/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/src/projectm/src/projectM-qt/moc_qplaylisttableview.cxx /home/apaul/src/projectm/src/projectM-qt/qplaylisttableview.hpp
 
 projectM-qt/moc_qpresettextedit.cxx: projectM-qt/qpresettextedit.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_qpresettextedit.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/moc -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpresettextedit.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresettextedit.hpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/moc -I/home/apaul/src/projectm/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/src/projectm/src/projectM-qt/moc_qpresettextedit.cxx /home/apaul/src/projectm/src/projectM-qt/qpresettextedit.hpp
 
 projectM-qt/moc_qpreseteditordialog.cxx: projectM-qt/qpreseteditordialog.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_qpreseteditordialog.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/moc -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpreseteditordialog.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpreseteditordialog.hpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/moc -I/home/apaul/src/projectm/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/src/projectm/src/projectM-qt/moc_qpreseteditordialog.cxx /home/apaul/src/projectm/src/projectM-qt/qpreseteditordialog.hpp
 
 projectM-qt/moc_qprojectm.cxx: projectM-qt/qprojectm.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_qprojectm.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/moc -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectm.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm.hpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/moc -I/home/apaul/src/projectm/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/src/projectm/src/projectM-qt/moc_qprojectm.cxx /home/apaul/src/projectm/src/projectM-qt/qprojectm.hpp
 
 projectM-qt/moc_qprojectmwidget.cxx: projectM-qt/qprojectmwidget.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_qprojectmwidget.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/moc -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectmwidget.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmwidget.hpp
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/moc -I/home/apaul/src/projectm/src/projectM-qt -I/usr/include -I/usr/include/QtGui -I/usr/include/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DLINUX -DQT_PLUGIN -DQT_NO_DEBUG -o /home/apaul/src/projectm/src/projectM-qt/moc_qprojectmwidget.cxx /home/apaul/src/projectm/src/projectM-qt/qprojectmwidget.hpp
 
 projectM-qt/ui_qprojectm_mainwindow.h: projectM-qt/qprojectm_mainwindow.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_qprojectm_mainwindow.h"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/uic -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/ui_qprojectm_mainwindow.h /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm_mainwindow.ui
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/uic -o /home/apaul/src/projectm/src/projectM-qt/ui_qprojectm_mainwindow.h /home/apaul/src/projectm/src/projectM-qt/qprojectm_mainwindow.ui
 
 projectM-qt/ui_qprojectmconfigdialog.h: projectM-qt/qprojectmconfigdialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_qprojectmconfigdialog.h"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/uic -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/ui_qprojectmconfigdialog.h /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmconfigdialog.ui
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/uic -o /home/apaul/src/projectm/src/projectM-qt/ui_qprojectmconfigdialog.h /home/apaul/src/projectm/src/projectM-qt/qprojectmconfigdialog.ui
 
 projectM-qt/ui_qpreseteditordialog.h: projectM-qt/qpreseteditordialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_qpreseteditordialog.h"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && /usr/bin/uic -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/ui_qpreseteditordialog.h /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpreseteditordialog.ui
+	cd /home/apaul/src/projectm/src/projectM-qt && /usr/bin/uic -o /home/apaul/src/projectm/src/projectM-qt/ui_qpreseteditordialog.h /home/apaul/src/projectm/src/projectM-qt/qpreseteditordialog.ui
 
 # Object files for target projectM-qt
 projectM__qt_OBJECTS = \
@@ -612,8 +612,8 @@ projectM-qt/libprojectM-qt.so.1.10: /usr/lib/libQtCore.so
 projectM-qt/libprojectM-qt.so.1.10: projectM-qt/CMakeFiles/projectM-qt.dir/build.make
 projectM-qt/libprojectM-qt.so.1.10: projectM-qt/CMakeFiles/projectM-qt.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libprojectM-qt.so"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectM-qt.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && $(CMAKE_COMMAND) -E cmake_symlink_library libprojectM-qt.so.1.10 libprojectM-qt.so.1 libprojectM-qt.so
+	cd /home/apaul/src/projectm/src/projectM-qt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectM-qt.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/apaul/src/projectm/src/projectM-qt && $(CMAKE_COMMAND) -E cmake_symlink_library libprojectM-qt.so.1.10 libprojectM-qt.so.1 libprojectM-qt.so
 
 projectM-qt/libprojectM-qt.so.1: projectM-qt/libprojectM-qt.so.1.10
 
@@ -644,7 +644,7 @@ projectM-qt/CMakeFiles/projectM-qt.dir/requires: projectM-qt/CMakeFiles/projectM
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/requires
 
 projectM-qt/CMakeFiles/projectM-qt.dir/clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt && $(CMAKE_COMMAND) -P CMakeFiles/projectM-qt.dir/cmake_clean.cmake
+	cd /home/apaul/src/projectm/src/projectM-qt && $(CMAKE_COMMAND) -P CMakeFiles/projectM-qt.dir/cmake_clean.cmake
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/clean
 
 projectM-qt/CMakeFiles/projectM-qt.dir/depend: projectM-qt/qrc_application.cxx
@@ -661,6 +661,6 @@ projectM-qt/CMakeFiles/projectM-qt.dir/depend: projectM-qt/moc_qprojectmwidget.c
 projectM-qt/CMakeFiles/projectM-qt.dir/depend: projectM-qt/ui_qprojectm_mainwindow.h
 projectM-qt/CMakeFiles/projectM-qt.dir/depend: projectM-qt/ui_qprojectmconfigdialog.h
 projectM-qt/CMakeFiles/projectM-qt.dir/depend: projectM-qt/ui_qpreseteditordialog.h
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/CMakeFiles/projectM-qt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/src/projectm/src /home/apaul/src/projectm/src/projectM-qt /home/apaul/src/projectm/src /home/apaul/src/projectm/src/projectM-qt /home/apaul/src/projectm/src/projectM-qt/CMakeFiles/projectM-qt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/depend
 

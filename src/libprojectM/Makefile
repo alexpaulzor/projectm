@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CPackSourceConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/src/projectm/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/CMakeFiles/progress.marks
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles /home/apaul/src/projectm/src/libprojectM/CMakeFiles/progress.marks
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/clean
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libprojectM/CMakeFiles/projectM.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/CMakeFiles/projectM.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/CMakeFiles/projectM.dir/rule
 .PHONY : libprojectM/CMakeFiles/projectM.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ projectM: libprojectM/CMakeFiles/projectM.dir/rule
 
 # fast build rule for target.
 projectM/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/build
 .PHONY : projectM/fast
 
 ConfigFile.o: ConfigFile.cpp.o
@@ -178,7 +178,7 @@ ConfigFile.o: ConfigFile.cpp.o
 
 # target to build an object file
 ConfigFile.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.o
 .PHONY : ConfigFile.cpp.o
 
 ConfigFile.i: ConfigFile.cpp.i
@@ -186,7 +186,7 @@ ConfigFile.i: ConfigFile.cpp.i
 
 # target to preprocess a source file
 ConfigFile.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.i
 .PHONY : ConfigFile.cpp.i
 
 ConfigFile.s: ConfigFile.cpp.s
@@ -194,7 +194,7 @@ ConfigFile.s: ConfigFile.cpp.s
 
 # target to generate assembly for a file
 ConfigFile.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.s
 .PHONY : ConfigFile.cpp.s
 
 KeyHandler.o: KeyHandler.cpp.o
@@ -202,7 +202,7 @@ KeyHandler.o: KeyHandler.cpp.o
 
 # target to build an object file
 KeyHandler.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.o
 .PHONY : KeyHandler.cpp.o
 
 KeyHandler.i: KeyHandler.cpp.i
@@ -210,7 +210,7 @@ KeyHandler.i: KeyHandler.cpp.i
 
 # target to preprocess a source file
 KeyHandler.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.i
 .PHONY : KeyHandler.cpp.i
 
 KeyHandler.s: KeyHandler.cpp.s
@@ -218,7 +218,7 @@ KeyHandler.s: KeyHandler.cpp.s
 
 # target to generate assembly for a file
 KeyHandler.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.s
 .PHONY : KeyHandler.cpp.s
 
 PCM.o: PCM.cpp.o
@@ -226,7 +226,7 @@ PCM.o: PCM.cpp.o
 
 # target to build an object file
 PCM.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PCM.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PCM.cpp.o
 .PHONY : PCM.cpp.o
 
 PCM.i: PCM.cpp.i
@@ -234,7 +234,7 @@ PCM.i: PCM.cpp.i
 
 # target to preprocess a source file
 PCM.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PCM.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PCM.cpp.i
 .PHONY : PCM.cpp.i
 
 PCM.s: PCM.cpp.s
@@ -242,7 +242,7 @@ PCM.s: PCM.cpp.s
 
 # target to generate assembly for a file
 PCM.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PCM.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PCM.cpp.s
 .PHONY : PCM.cpp.s
 
 PipelineMerger.o: PipelineMerger.cpp.o
@@ -250,7 +250,7 @@ PipelineMerger.o: PipelineMerger.cpp.o
 
 # target to build an object file
 PipelineMerger.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.o
 .PHONY : PipelineMerger.cpp.o
 
 PipelineMerger.i: PipelineMerger.cpp.i
@@ -258,7 +258,7 @@ PipelineMerger.i: PipelineMerger.cpp.i
 
 # target to preprocess a source file
 PipelineMerger.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.i
 .PHONY : PipelineMerger.cpp.i
 
 PipelineMerger.s: PipelineMerger.cpp.s
@@ -266,7 +266,7 @@ PipelineMerger.s: PipelineMerger.cpp.s
 
 # target to generate assembly for a file
 PipelineMerger.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.s
 .PHONY : PipelineMerger.cpp.s
 
 Preset.o: Preset.cpp.o
@@ -274,7 +274,7 @@ Preset.o: Preset.cpp.o
 
 # target to build an object file
 Preset.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/Preset.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/Preset.cpp.o
 .PHONY : Preset.cpp.o
 
 Preset.i: Preset.cpp.i
@@ -282,7 +282,7 @@ Preset.i: Preset.cpp.i
 
 # target to preprocess a source file
 Preset.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/Preset.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/Preset.cpp.i
 .PHONY : Preset.cpp.i
 
 Preset.s: Preset.cpp.s
@@ -290,7 +290,7 @@ Preset.s: Preset.cpp.s
 
 # target to generate assembly for a file
 Preset.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/Preset.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/Preset.cpp.s
 .PHONY : Preset.cpp.s
 
 PresetChooser.o: PresetChooser.cpp.o
@@ -298,7 +298,7 @@ PresetChooser.o: PresetChooser.cpp.o
 
 # target to build an object file
 PresetChooser.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.o
 .PHONY : PresetChooser.cpp.o
 
 PresetChooser.i: PresetChooser.cpp.i
@@ -306,7 +306,7 @@ PresetChooser.i: PresetChooser.cpp.i
 
 # target to preprocess a source file
 PresetChooser.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.i
 .PHONY : PresetChooser.cpp.i
 
 PresetChooser.s: PresetChooser.cpp.s
@@ -314,7 +314,7 @@ PresetChooser.s: PresetChooser.cpp.s
 
 # target to generate assembly for a file
 PresetChooser.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.s
 .PHONY : PresetChooser.cpp.s
 
 PresetFactory.o: PresetFactory.cpp.o
@@ -322,7 +322,7 @@ PresetFactory.o: PresetFactory.cpp.o
 
 # target to build an object file
 PresetFactory.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.o
 .PHONY : PresetFactory.cpp.o
 
 PresetFactory.i: PresetFactory.cpp.i
@@ -330,7 +330,7 @@ PresetFactory.i: PresetFactory.cpp.i
 
 # target to preprocess a source file
 PresetFactory.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.i
 .PHONY : PresetFactory.cpp.i
 
 PresetFactory.s: PresetFactory.cpp.s
@@ -338,7 +338,7 @@ PresetFactory.s: PresetFactory.cpp.s
 
 # target to generate assembly for a file
 PresetFactory.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.s
 .PHONY : PresetFactory.cpp.s
 
 PresetFactoryManager.o: PresetFactoryManager.cpp.o
@@ -346,7 +346,7 @@ PresetFactoryManager.o: PresetFactoryManager.cpp.o
 
 # target to build an object file
 PresetFactoryManager.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.o
 .PHONY : PresetFactoryManager.cpp.o
 
 PresetFactoryManager.i: PresetFactoryManager.cpp.i
@@ -354,7 +354,7 @@ PresetFactoryManager.i: PresetFactoryManager.cpp.i
 
 # target to preprocess a source file
 PresetFactoryManager.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.i
 .PHONY : PresetFactoryManager.cpp.i
 
 PresetFactoryManager.s: PresetFactoryManager.cpp.s
@@ -362,7 +362,7 @@ PresetFactoryManager.s: PresetFactoryManager.cpp.s
 
 # target to generate assembly for a file
 PresetFactoryManager.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.s
 .PHONY : PresetFactoryManager.cpp.s
 
 PresetLoader.o: PresetLoader.cpp.o
@@ -370,7 +370,7 @@ PresetLoader.o: PresetLoader.cpp.o
 
 # target to build an object file
 PresetLoader.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.o
 .PHONY : PresetLoader.cpp.o
 
 PresetLoader.i: PresetLoader.cpp.i
@@ -378,7 +378,7 @@ PresetLoader.i: PresetLoader.cpp.i
 
 # target to preprocess a source file
 PresetLoader.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.i
 .PHONY : PresetLoader.cpp.i
 
 PresetLoader.s: PresetLoader.cpp.s
@@ -386,7 +386,7 @@ PresetLoader.s: PresetLoader.cpp.s
 
 # target to generate assembly for a file
 PresetLoader.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.s
 .PHONY : PresetLoader.cpp.s
 
 TimeKeeper.o: TimeKeeper.cpp.o
@@ -394,7 +394,7 @@ TimeKeeper.o: TimeKeeper.cpp.o
 
 # target to build an object file
 TimeKeeper.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.o
 .PHONY : TimeKeeper.cpp.o
 
 TimeKeeper.i: TimeKeeper.cpp.i
@@ -402,7 +402,7 @@ TimeKeeper.i: TimeKeeper.cpp.i
 
 # target to preprocess a source file
 TimeKeeper.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.i
 .PHONY : TimeKeeper.cpp.i
 
 TimeKeeper.s: TimeKeeper.cpp.s
@@ -410,7 +410,7 @@ TimeKeeper.s: TimeKeeper.cpp.s
 
 # target to generate assembly for a file
 TimeKeeper.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.s
 .PHONY : TimeKeeper.cpp.s
 
 fftsg.o: fftsg.cpp.o
@@ -418,7 +418,7 @@ fftsg.o: fftsg.cpp.o
 
 # target to build an object file
 fftsg.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.o
 .PHONY : fftsg.cpp.o
 
 fftsg.i: fftsg.cpp.i
@@ -426,7 +426,7 @@ fftsg.i: fftsg.cpp.i
 
 # target to preprocess a source file
 fftsg.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.i
 .PHONY : fftsg.cpp.i
 
 fftsg.s: fftsg.cpp.s
@@ -434,7 +434,7 @@ fftsg.s: fftsg.cpp.s
 
 # target to generate assembly for a file
 fftsg.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.s
 .PHONY : fftsg.cpp.s
 
 projectM.o: projectM.cpp.o
@@ -442,7 +442,7 @@ projectM.o: projectM.cpp.o
 
 # target to build an object file
 projectM.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/projectM.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/projectM.cpp.o
 .PHONY : projectM.cpp.o
 
 projectM.i: projectM.cpp.i
@@ -450,7 +450,7 @@ projectM.i: projectM.cpp.i
 
 # target to preprocess a source file
 projectM.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/projectM.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/projectM.cpp.i
 .PHONY : projectM.cpp.i
 
 projectM.s: projectM.cpp.s
@@ -458,7 +458,7 @@ projectM.s: projectM.cpp.s
 
 # target to generate assembly for a file
 projectM.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/projectM.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/projectM.cpp.s
 .PHONY : projectM.cpp.s
 
 timer.o: timer.cpp.o
@@ -466,7 +466,7 @@ timer.o: timer.cpp.o
 
 # target to build an object file
 timer.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/timer.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/timer.cpp.o
 .PHONY : timer.cpp.o
 
 timer.i: timer.cpp.i
@@ -474,7 +474,7 @@ timer.i: timer.cpp.i
 
 # target to preprocess a source file
 timer.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/timer.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/timer.cpp.i
 .PHONY : timer.cpp.i
 
 timer.s: timer.cpp.s
@@ -482,7 +482,7 @@ timer.s: timer.cpp.s
 
 # target to generate assembly for a file
 timer.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/timer.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/timer.cpp.s
 .PHONY : timer.cpp.s
 
 wipemalloc.o: wipemalloc.cpp.o
@@ -490,7 +490,7 @@ wipemalloc.o: wipemalloc.cpp.o
 
 # target to build an object file
 wipemalloc.cpp.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.o
 .PHONY : wipemalloc.cpp.o
 
 wipemalloc.i: wipemalloc.cpp.i
@@ -498,7 +498,7 @@ wipemalloc.i: wipemalloc.cpp.i
 
 # target to preprocess a source file
 wipemalloc.cpp.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.i
 .PHONY : wipemalloc.cpp.i
 
 wipemalloc.s: wipemalloc.cpp.s
@@ -506,7 +506,7 @@ wipemalloc.s: wipemalloc.cpp.s
 
 # target to generate assembly for a file
 wipemalloc.cpp.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/CMakeFiles/projectM.dir/build.make libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.s
 .PHONY : wipemalloc.cpp.s
 
 # Help Target
@@ -577,6 +577,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

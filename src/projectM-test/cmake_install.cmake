@@ -1,4 +1,4 @@
-# Install script for directory: /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test
+# Install script for directory: /home/apaul/src/projectm/src/projectM-test
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/local/bin/projectM-test")
-FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/projectM-test")
+FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/apaul/src/projectm/src/projectM-test/projectM-test")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/projectM-test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/projectM-test")
     FILE(RPATH_REMOVE
@@ -61,7 +61,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/local/bin/projectM-test-texture")
-FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/projectM-test-texture")
+FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/apaul/src/projectm/src/projectM-test/projectM-test-texture")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/projectM-test-texture" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/projectM-test-texture")
     FILE(RPATH_REMOVE

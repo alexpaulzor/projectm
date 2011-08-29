@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/SOIL.c
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/SOIL.c
 windows.h
 -
 wingdi.h
@@ -22,23 +22,23 @@ GL/gl.h
 GL/glx.h
 -
 SOIL.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/SOIL.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/SOIL.h
 stb_image_aug.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/stb_image_aug.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/stb_image_aug.h
 image_helper.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_helper.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_helper.h
 image_DXT.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_DXT.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_DXT.h
 stdlib.h
 -
 string.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/SOIL.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/SOIL.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_DXT.c
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_DXT.c
 image_DXT.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_DXT.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_DXT.h
 math.h
 -
 stdlib.h
@@ -48,21 +48,21 @@ string.h
 stdio.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_DXT.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_DXT.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_helper.c
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_helper.c
 image_helper.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_helper.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_helper.h
 stdlib.h
 -
 math.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_helper.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_helper.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/stb_image_aug.c
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/stb_image_aug.c
 stb_image_aug.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/stb_image_aug.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/stb_image_aug.h
 math.h
 -
 string.h
@@ -78,15 +78,15 @@ assert.h
 stdarg.h
 -
 stbi_DDS_aug.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/stbi_DDS_aug.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/stbi_DDS_aug.h
 stbi_DDS_aug_c.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/stbi_DDS_aug_c.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/stbi_DDS_aug_c.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/stb_image_aug.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/stb_image_aug.h
 stdio.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/stbi_DDS_aug.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/stbi_DDS_aug.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/stbi_DDS_aug_c.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/stbi_DDS_aug_c.h
 

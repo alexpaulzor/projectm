@@ -1,4 +1,4 @@
-# Install script for directory: /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio
+# Install script for directory: /home/apaul/src/projectm/src/projectM-pulseaudio
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/local/bin/projectM-pulseaudio")
-FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/projectM-pulseaudio")
+FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/apaul/src/projectm/src/projectM-pulseaudio/projectM-pulseaudio")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/projectM-pulseaudio" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/projectM-pulseaudio")
     FILE(RPATH_REMOVE
@@ -55,6 +55,6 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/local/share/applications/projectM-pulseaudio.desktop")
-FILE(INSTALL DESTINATION "/usr/local/share/applications" TYPE FILE FILES "/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/projectM-pulseaudio.desktop")
+FILE(INSTALL DESTINATION "/usr/local/share/applications" TYPE FILE FILES "/home/apaul/src/projectm/src/projectM-pulseaudio/projectM-pulseaudio.desktop")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

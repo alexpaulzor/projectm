@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/NativePresetFactory/NativePresetFactory.cpp
+/home/apaul/src/projectm/src/libprojectM/NativePresetFactory/NativePresetFactory.cpp
 dlfcn.h
 -
 NativePresetFactory.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/NativePresetFactory/NativePresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/NativePresetFactory/NativePresetFactory.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/NativePresetFactory/NativePresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/NativePresetFactory/NativePresetFactory.hpp
 memory
 -
 PresetFactory.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/NativePresetFactory/PresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/NativePresetFactory/PresetFactory.hpp
 
 libprojectM/Preset.hpp
 string

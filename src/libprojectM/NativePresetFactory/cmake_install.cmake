@@ -1,4 +1,4 @@
-# Install script for directory: /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/NativePresetFactory
+# Install script for directory: /home/apaul/src/projectm/src/libprojectM/NativePresetFactory
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

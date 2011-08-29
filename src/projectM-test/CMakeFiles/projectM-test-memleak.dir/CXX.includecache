@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/ConfigFile.cpp
+/home/apaul/src/projectm/src/projectM-test/ConfigFile.cpp
 ConfigFile.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/ConfigFile.h
+/home/apaul/src/projectm/src/projectM-test/ConfigFile.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/ConfigFile.h
+/home/apaul/src/projectm/src/projectM-test/ConfigFile.h
 string
 -
 map
@@ -22,7 +22,7 @@ fstream
 sstream
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/getConfigFilename.cpp
+/home/apaul/src/projectm/src/projectM-test/getConfigFilename.cpp
 string
 -
 cstring
@@ -30,7 +30,7 @@ cstring
 cstdlib
 -
 getConfigFilename.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/getConfigFilename.h
+/home/apaul/src/projectm/src/projectM-test/getConfigFilename.h
 fcntl.h
 -
 sys/stat.h
@@ -38,25 +38,25 @@ sys/stat.h
 cstdio
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/getConfigFilename.h
+/home/apaul/src/projectm/src/projectM-test/getConfigFilename.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/projectM-test-memleak.cpp
+/home/apaul/src/projectm/src/projectM-test/projectM-test-memleak.cpp
 video_init.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/video_init.h
+/home/apaul/src/projectm/src/projectM-test/video_init.h
 projectM.hpp
 -
 sdltoprojectM.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/sdltoprojectM.h
+/home/apaul/src/projectm/src/projectM-test/sdltoprojectM.h
 ConfigFile.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/ConfigFile.h
+/home/apaul/src/projectm/src/projectM-test/ConfigFile.h
 getConfigFilename.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/getConfigFilename.h
+/home/apaul/src/projectm/src/projectM-test/getConfigFilename.h
 GL/gl.h
 -
 assert.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/sdltoprojectM.h
+/home/apaul/src/projectm/src/projectM-test/sdltoprojectM.h
 event.h
 -
 SDL.h
@@ -64,11 +64,11 @@ SDL.h
 SDL/SDL.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/video_init.cpp
+/home/apaul/src/projectm/src/projectM-test/video_init.cpp
 SDL/SDL.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/video_init.h
+/home/apaul/src/projectm/src/projectM-test/video_init.h
 
 /usr/include/SDL/SDL.h
 SDL_main.h

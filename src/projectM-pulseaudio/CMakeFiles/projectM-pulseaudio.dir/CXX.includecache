@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/ConfigFile.cpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/ConfigFile.cpp
 ConfigFile.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/ConfigFile.h
+/home/apaul/src/projectm/src/projectM-pulseaudio/ConfigFile.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/ConfigFile.h
+/home/apaul/src/projectm/src/projectM-pulseaudio/ConfigFile.h
 string
 -
 map
@@ -22,9 +22,9 @@ fstream
 sstream
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceChooser.cpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceChooser.cpp
 QPulseAudioDeviceChooser.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceChooser.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceChooser.hpp
 QSettings
 -
 QtDebug
@@ -32,17 +32,17 @@ QtDebug
 QHBoxLayout
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceChooser.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceChooser.hpp
 ui_PulseDeviceChooserDialog.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/ui_PulseDeviceChooserDialog.h
+/home/apaul/src/projectm/src/projectM-pulseaudio/ui_PulseDeviceChooserDialog.h
 QPulseAudioDeviceModel.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceModel.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceModel.hpp
 QPulseAudioThread.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioThread.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioThread.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceModel.cpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceModel.cpp
 QPulseAudioDeviceModel.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceModel.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceModel.hpp
 QIcon
 -
 QtDebug
@@ -52,21 +52,21 @@ QMessageBox
 QHash
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceModel.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceModel.hpp
 cassert
 -
 projectM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/projectM.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/projectM.hpp
 QAbstractListModel
 -
 QHash
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioThread.cpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioThread.cpp
 projectM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/projectM.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/projectM.hpp
 QPulseAudioThread.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioThread.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioThread.hpp
 QtDebug
 -
 QString
@@ -96,9 +96,9 @@ fcntl.h
 QSettings
 -
 qprojectm_mainwindow.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/qprojectm_mainwindow.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/qprojectm_mainwindow.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioThread.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioThread.hpp
 QObject
 -
 QTimer
@@ -122,21 +122,23 @@ pulse/pulseaudio.h
 pulse/browser.h
 -
 qprojectm_mainwindow.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/qprojectm_mainwindow.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/qprojectm_mainwindow.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx
+/home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx
 QPulseAudioDeviceChooser.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceChooser.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceChooser.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx
+/home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx
 QPulseAudioDeviceModel.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceModel.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceModel.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioThread.cxx
+/home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioThread.cxx
 QPulseAudioThread.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioThread.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioThread.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/qprojectM-pulseaudio.cpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/qprojectM-pulseaudio.cpp
+sys/stat.h
+-
 fcntl.h
 -
 stdlib.h
@@ -152,7 +154,7 @@ QApplication
 QtDebug
 -
 ConfigFile.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/ConfigFile.h
+/home/apaul/src/projectm/src/projectM-pulseaudio/ConfigFile.h
 string
 -
 iostream
@@ -176,11 +178,11 @@ string.h
 errno.h
 -
 QPulseAudioThread.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioThread.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioThread.hpp
 QPulseAudioDeviceChooser.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceChooser.hpp
+/home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceChooser.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/ui_PulseDeviceChooserDialog.h
+/home/apaul/src/projectm/src/projectM-pulseaudio/ui_PulseDeviceChooserDialog.h
 QtCore/QVariant
 -
 QtGui/QAction

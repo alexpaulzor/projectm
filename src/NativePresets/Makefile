@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CPackSourceConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/src/projectm/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/CMakeFiles/progress.marks
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles /home/apaul/src/projectm/src/NativePresets/CMakeFiles/progress.marks
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/clean
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 NativePresets/CMakeFiles/MstressJuppyDancer.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/CMakeFiles/MstressJuppyDancer.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/CMakeFiles/MstressJuppyDancer.dir/rule
 .PHONY : NativePresets/CMakeFiles/MstressJuppyDancer.dir/rule
 
 # Convenience name for target.
@@ -170,12 +170,12 @@ MstressJuppyDancer: NativePresets/CMakeFiles/MstressJuppyDancer.dir/rule
 
 # fast build rule for target.
 MstressJuppyDancer/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/MstressJuppyDancer.dir/build.make NativePresets/CMakeFiles/MstressJuppyDancer.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/MstressJuppyDancer.dir/build.make NativePresets/CMakeFiles/MstressJuppyDancer.dir/build
 .PHONY : MstressJuppyDancer/fast
 
 # Convenience name for target.
 NativePresets/CMakeFiles/RovastarDarkSecret.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/CMakeFiles/RovastarDarkSecret.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/CMakeFiles/RovastarDarkSecret.dir/rule
 .PHONY : NativePresets/CMakeFiles/RovastarDarkSecret.dir/rule
 
 # Convenience name for target.
@@ -184,12 +184,12 @@ RovastarDarkSecret: NativePresets/CMakeFiles/RovastarDarkSecret.dir/rule
 
 # fast build rule for target.
 RovastarDarkSecret/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDarkSecret.dir/build.make NativePresets/CMakeFiles/RovastarDarkSecret.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDarkSecret.dir/build.make NativePresets/CMakeFiles/RovastarDarkSecret.dir/build
 .PHONY : RovastarDarkSecret/fast
 
 # Convenience name for target.
 NativePresets/CMakeFiles/RovastarDriftingChaos.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/CMakeFiles/RovastarDriftingChaos.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/CMakeFiles/RovastarDriftingChaos.dir/rule
 .PHONY : NativePresets/CMakeFiles/RovastarDriftingChaos.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ RovastarDriftingChaos: NativePresets/CMakeFiles/RovastarDriftingChaos.dir/rule
 
 # fast build rule for target.
 RovastarDriftingChaos/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDriftingChaos.dir/build.make NativePresets/CMakeFiles/RovastarDriftingChaos.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDriftingChaos.dir/build.make NativePresets/CMakeFiles/RovastarDriftingChaos.dir/build
 .PHONY : RovastarDriftingChaos/fast
 
 # Convenience name for target.
 NativePresets/CMakeFiles/RovastarFractalSpiral.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/CMakeFiles/RovastarFractalSpiral.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/CMakeFiles/RovastarFractalSpiral.dir/rule
 .PHONY : NativePresets/CMakeFiles/RovastarFractalSpiral.dir/rule
 
 # Convenience name for target.
@@ -212,12 +212,12 @@ RovastarFractalSpiral: NativePresets/CMakeFiles/RovastarFractalSpiral.dir/rule
 
 # fast build rule for target.
 RovastarFractalSpiral/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractalSpiral.dir/build.make NativePresets/CMakeFiles/RovastarFractalSpiral.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractalSpiral.dir/build.make NativePresets/CMakeFiles/RovastarFractalSpiral.dir/build
 .PHONY : RovastarFractalSpiral/fast
 
 # Convenience name for target.
 NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/rule
 .PHONY : NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/rule
 
 # Convenience name for target.
@@ -226,82 +226,82 @@ RovastarFractopiaFrantic: NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/
 
 # fast build rule for target.
 RovastarFractopiaFrantic/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/build.make NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/build.make NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/build
 .PHONY : RovastarFractopiaFrantic/fast
 
 # target to build an object file
 MstressJuppyDancer.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/MstressJuppyDancer.dir/build.make NativePresets/CMakeFiles/MstressJuppyDancer.dir/MstressJuppyDancer.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/MstressJuppyDancer.dir/build.make NativePresets/CMakeFiles/MstressJuppyDancer.dir/MstressJuppyDancer.o
 .PHONY : MstressJuppyDancer.o
 
 # target to preprocess a source file
 MstressJuppyDancer.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/MstressJuppyDancer.dir/build.make NativePresets/CMakeFiles/MstressJuppyDancer.dir/MstressJuppyDancer.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/MstressJuppyDancer.dir/build.make NativePresets/CMakeFiles/MstressJuppyDancer.dir/MstressJuppyDancer.i
 .PHONY : MstressJuppyDancer.i
 
 # target to generate assembly for a file
 MstressJuppyDancer.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/MstressJuppyDancer.dir/build.make NativePresets/CMakeFiles/MstressJuppyDancer.dir/MstressJuppyDancer.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/MstressJuppyDancer.dir/build.make NativePresets/CMakeFiles/MstressJuppyDancer.dir/MstressJuppyDancer.s
 .PHONY : MstressJuppyDancer.s
 
 # target to build an object file
 RovastarDarkSecret.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDarkSecret.dir/build.make NativePresets/CMakeFiles/RovastarDarkSecret.dir/RovastarDarkSecret.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDarkSecret.dir/build.make NativePresets/CMakeFiles/RovastarDarkSecret.dir/RovastarDarkSecret.o
 .PHONY : RovastarDarkSecret.o
 
 # target to preprocess a source file
 RovastarDarkSecret.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDarkSecret.dir/build.make NativePresets/CMakeFiles/RovastarDarkSecret.dir/RovastarDarkSecret.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDarkSecret.dir/build.make NativePresets/CMakeFiles/RovastarDarkSecret.dir/RovastarDarkSecret.i
 .PHONY : RovastarDarkSecret.i
 
 # target to generate assembly for a file
 RovastarDarkSecret.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDarkSecret.dir/build.make NativePresets/CMakeFiles/RovastarDarkSecret.dir/RovastarDarkSecret.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDarkSecret.dir/build.make NativePresets/CMakeFiles/RovastarDarkSecret.dir/RovastarDarkSecret.s
 .PHONY : RovastarDarkSecret.s
 
 # target to build an object file
 RovastarDriftingChaos.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDriftingChaos.dir/build.make NativePresets/CMakeFiles/RovastarDriftingChaos.dir/RovastarDriftingChaos.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDriftingChaos.dir/build.make NativePresets/CMakeFiles/RovastarDriftingChaos.dir/RovastarDriftingChaos.o
 .PHONY : RovastarDriftingChaos.o
 
 # target to preprocess a source file
 RovastarDriftingChaos.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDriftingChaos.dir/build.make NativePresets/CMakeFiles/RovastarDriftingChaos.dir/RovastarDriftingChaos.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDriftingChaos.dir/build.make NativePresets/CMakeFiles/RovastarDriftingChaos.dir/RovastarDriftingChaos.i
 .PHONY : RovastarDriftingChaos.i
 
 # target to generate assembly for a file
 RovastarDriftingChaos.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDriftingChaos.dir/build.make NativePresets/CMakeFiles/RovastarDriftingChaos.dir/RovastarDriftingChaos.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarDriftingChaos.dir/build.make NativePresets/CMakeFiles/RovastarDriftingChaos.dir/RovastarDriftingChaos.s
 .PHONY : RovastarDriftingChaos.s
 
 # target to build an object file
 RovastarFractalSpiral.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractalSpiral.dir/build.make NativePresets/CMakeFiles/RovastarFractalSpiral.dir/RovastarFractalSpiral.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractalSpiral.dir/build.make NativePresets/CMakeFiles/RovastarFractalSpiral.dir/RovastarFractalSpiral.o
 .PHONY : RovastarFractalSpiral.o
 
 # target to preprocess a source file
 RovastarFractalSpiral.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractalSpiral.dir/build.make NativePresets/CMakeFiles/RovastarFractalSpiral.dir/RovastarFractalSpiral.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractalSpiral.dir/build.make NativePresets/CMakeFiles/RovastarFractalSpiral.dir/RovastarFractalSpiral.i
 .PHONY : RovastarFractalSpiral.i
 
 # target to generate assembly for a file
 RovastarFractalSpiral.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractalSpiral.dir/build.make NativePresets/CMakeFiles/RovastarFractalSpiral.dir/RovastarFractalSpiral.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractalSpiral.dir/build.make NativePresets/CMakeFiles/RovastarFractalSpiral.dir/RovastarFractalSpiral.s
 .PHONY : RovastarFractalSpiral.s
 
 # target to build an object file
 RovastarFractopiaFrantic.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/build.make NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/RovastarFractopiaFrantic.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/build.make NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/RovastarFractopiaFrantic.o
 .PHONY : RovastarFractopiaFrantic.o
 
 # target to preprocess a source file
 RovastarFractopiaFrantic.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/build.make NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/RovastarFractopiaFrantic.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/build.make NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/RovastarFractopiaFrantic.i
 .PHONY : RovastarFractopiaFrantic.i
 
 # target to generate assembly for a file
 RovastarFractopiaFrantic.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/build.make NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/RovastarFractopiaFrantic.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/build.make NativePresets/CMakeFiles/RovastarFractopiaFrantic.dir/RovastarFractopiaFrantic.s
 .PHONY : RovastarFractopiaFrantic.s
 
 # Help Target
@@ -349,6 +349,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

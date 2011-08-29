@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/ConfigFile.cpp
+/home/apaul/src/projectm/src/projectM-libvisual/ConfigFile.cpp
 ConfigFile.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/ConfigFile.h
+/home/apaul/src/projectm/src/projectM-libvisual/ConfigFile.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/ConfigFile.h
+/home/apaul/src/projectm/src/projectM-libvisual/ConfigFile.h
 string
 -
 map
@@ -22,7 +22,7 @@ fstream
 sstream
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/actor_projectM.cpp
+/home/apaul/src/projectm/src/projectM-libvisual/actor_projectM.cpp
 iostream
 -
 stdio.h
@@ -48,11 +48,11 @@ libvisual/libvisual.h
 projectM.hpp
 -
 lvtoprojectM.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/lvtoprojectM.h
+/home/apaul/src/projectm/src/projectM-libvisual/lvtoprojectM.h
 ConfigFile.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/ConfigFile.h
+/home/apaul/src/projectm/src/projectM-libvisual/ConfigFile.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/lvtoprojectM.h
+/home/apaul/src/projectm/src/projectM-libvisual/lvtoprojectM.h
 libvisual/libvisual.h
 -
 

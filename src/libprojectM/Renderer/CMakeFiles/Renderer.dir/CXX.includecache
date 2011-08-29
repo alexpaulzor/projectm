@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/../Common.hpp
 vector
 -
 typeinfo
@@ -18,7 +18,7 @@ cassert
 cstdio
 -
 dlldefs.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/../dlldefs.h
 cstdlib
 -
 float.h
@@ -26,47 +26,47 @@ float.h
 string
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../PCM.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/../PCM.hpp
 dlldefs.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/../dlldefs.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/../dlldefs.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.cpp
 stdlib.h
 -
 stdio.h
 -
 wipemalloc.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/wipemalloc.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/wipemalloc.h
 Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Common.hpp
 PCM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PCM.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PCM.hpp
 cmath
 -
 BeatDetect.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.hpp
 ../PCM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../PCM.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/../PCM.hpp
 ../dlldefs.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/../dlldefs.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/FBO.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/FBO.cpp
 stdio.h
 -
 iostream
 -
 Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Common.hpp
 FBO.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/FBO.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/FBO.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/FBO.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/FBO.hpp
 glew.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/glew.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/glew.h
 GL/glew.h
 -
 OpenGL/gl.h
@@ -82,7 +82,7 @@ GL/gl.h
 GL/glx.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Filters.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Filters.cpp
 GLES/gl.h
 -
 OpenGL/gl.h
@@ -94,97 +94,97 @@ GL/gl.h
 GL/glu.h
 -
 Filters.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Filters.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Filters.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Filters.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Filters.hpp
 Renderable.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/MilkdropWaveform.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/MilkdropWaveform.cpp
 iostream
 -
 GL/gl.h
 -
 glew.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/glew.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/glew.h
 GL/gl.h
 -
 MilkdropWaveform.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/MilkdropWaveform.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/MilkdropWaveform.hpp
 math.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/math.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/math.h
 BeatDetect.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/MilkdropWaveform.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/MilkdropWaveform.hpp
 Renderable.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerPixelMesh.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerPixelMesh.cpp
 math.h
 -
 algorithm
 -
 PerPixelMesh.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerPixelMesh.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerPixelMesh.hpp
 omptl/omptl
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/omptl/omptl
+/home/apaul/src/projectm/src/libprojectM/Renderer/omptl/omptl
 omptl/omptl_algorithm
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/omptl/omptl_algorithm
+/home/apaul/src/projectm/src/libprojectM/Renderer/omptl/omptl_algorithm
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerPixelMesh.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerPixelMesh.hpp
 vector
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerlinNoise.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerlinNoise.cpp
 PerlinNoise.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerlinNoise.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerlinNoise.hpp
 iostream
 -
 stdlib.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerlinNoise.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerlinNoise.hpp
 math.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Pipeline.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Pipeline.cpp
 Pipeline.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Pipeline.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Pipeline.hpp
 wipemalloc.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/wipemalloc.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/wipemalloc.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Pipeline.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Pipeline.hpp
 vector
 -
 PerPixelMesh.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerPixelMesh.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerPixelMesh.hpp
 Renderable.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.hpp
 Filters.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Filters.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Filters.hpp
 PipelineContext.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PipelineContext.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PipelineContext.hpp
 Shader.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Shader.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Shader.hpp
 ../Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/../Common.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PipelineContext.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PipelineContext.cpp
 PipelineContext.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PipelineContext.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PipelineContext.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PipelineContext.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PipelineContext.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemDistanceMetric.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemDistanceMetric.cpp
 RenderItemDistanceMetric.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemDistanceMetric.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemDistanceMetric.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemDistanceMetric.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemDistanceMetric.hpp
 Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Common.hpp
 Renderable.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.hpp
 limits
 -
 functional
@@ -192,13 +192,13 @@ functional
 map
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemMatcher.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemMatcher.cpp
 RenderItemMatcher.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemMatcher.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemMatcher.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemMatcher.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemMatcher.hpp
 RenderItemDistanceMetric.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemDistanceMetric.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemDistanceMetric.hpp
 vector
 -
 map
@@ -206,9 +206,9 @@ map
 iostream
 -
 HungarianMethod.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/HungarianMethod.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/HungarianMethod.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.cpp
 GLES/gl.h
 -
 OpenGL/gl.h
@@ -220,31 +220,31 @@ GL/gl.h
 GL/glu.h
 -
 Renderable.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.hpp
 math.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.hpp
 vector
 -
 typeinfo
 -
 TextureManager.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/TextureManager.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/TextureManager.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderer.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderer.cpp
 Renderer.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderer.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderer.hpp
 wipemalloc.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/wipemalloc.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/wipemalloc.h
 math.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/math.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/math.h
 Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Common.hpp
 KeyHandler.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/KeyHandler.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/KeyHandler.hpp
 TextureManager.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/TextureManager.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/TextureManager.hpp
 iostream
 -
 algorithm
@@ -252,17 +252,17 @@ algorithm
 cassert
 -
 omptl/omptl
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/omptl/omptl
+/home/apaul/src/projectm/src/libprojectM/Renderer/omptl/omptl
 omptl/omptl_algorithm
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/omptl/omptl_algorithm
+/home/apaul/src/projectm/src/libprojectM/Renderer/omptl/omptl_algorithm
 UserTexture.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/UserTexture.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/UserTexture.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderer.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderer.hpp
 FBO.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/FBO.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/FBO.hpp
 BeatDetect.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.hpp
 string
 -
 set
@@ -290,39 +290,39 @@ FTGL/FTGLPixmapFont.h
 FTGL/FTGLExtrdFont.h
 -
 Pipeline.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Pipeline.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Pipeline.hpp
 PerPixelMesh.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerPixelMesh.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerPixelMesh.hpp
 Transformation.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Transformation.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Transformation.hpp
 ShaderEngine.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/ShaderEngine.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/ShaderEngine.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/SOIL.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/SOIL.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Shader.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Shader.cpp
 Shader.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Shader.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Shader.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Shader.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Shader.hpp
 string
 -
 map
 -
 UserTexture.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/UserTexture.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/UserTexture.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/ShaderEngine.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/ShaderEngine.cpp
 fstream
 -
 PerlinNoise.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerlinNoise.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerlinNoise.hpp
 ShaderEngine.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/ShaderEngine.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/ShaderEngine.hpp
 BeatDetect.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/ShaderEngine.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/ShaderEngine.hpp
 GLES/gl.h
 -
 OpenGL/gl.h
@@ -338,11 +338,11 @@ Cg/cg.h
 Cg/cgGL.h
 -
 Pipeline.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Pipeline.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Pipeline.hpp
 PipelineContext.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PipelineContext.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PipelineContext.hpp
 TextureManager.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/TextureManager.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/TextureManager.hpp
 cstdlib
 -
 iostream
@@ -350,33 +350,33 @@ iostream
 map
 -
 Shader.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Shader.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Shader.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/TextureManager.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/TextureManager.cpp
 GL/gl.h
 -
 glew.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/glew.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/glew.h
 GL/gl.h
 -
 IL/ilut.h
 -
 SOIL/SOIL.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/SOIL.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/SOIL.h
 win32-dirent.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/win32-dirent.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/win32-dirent.h
 dirent.h
 -
 dirent.h
 -
 TextureManager.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/TextureManager.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/TextureManager.hpp
 Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Common.hpp
 IdleTextures.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/IdleTextures.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/IdleTextures.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/TextureManager.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/TextureManager.hpp
 iostream
 -
 string
@@ -386,21 +386,21 @@ map
 vector
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Transformation.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Transformation.hpp
 PerPixelMesh.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerPixelMesh.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerPixelMesh.hpp
 math.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/UserTexture.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/UserTexture.cpp
 UserTexture.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/UserTexture.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/UserTexture.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/UserTexture.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/UserTexture.hpp
 string
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/VideoEcho.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/VideoEcho.cpp
 GLES/gl.h
 -
 OpenGL/gl.h
@@ -412,29 +412,29 @@ GL/gl.h
 GL/glu.h
 -
 VideoEcho.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/VideoEcho.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/VideoEcho.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/VideoEcho.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/VideoEcho.hpp
 Renderable.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Waveform.cpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Waveform.cpp
 GL/gl.h
 -
 glew.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/glew.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/glew.h
 GL/gl.h
 -
 Waveform.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Waveform.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Waveform.hpp
 algorithm
 -
 BeatDetect.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Waveform.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Waveform.hpp
 Renderable.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.hpp
 vector
 -
 

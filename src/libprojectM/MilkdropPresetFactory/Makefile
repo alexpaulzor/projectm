@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CPackSourceConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/src/projectm/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/CMakeFiles/progress.marks
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/MilkdropPresetFactory/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/CMakeFiles/progress.marks
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/MilkdropPresetFactory/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/MilkdropPresetFactory/clean
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/MilkdropPresetFactory/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/MilkdropPresetFactory/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/MilkdropPresetFactory/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/MilkdropPresetFactory/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/MilkdropPresetFactory/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/rule
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/rule
 
 # Convenience name for target.
@@ -170,262 +170,262 @@ MilkdropPresetFactory: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPres
 
 # fast build rule for target.
 MilkdropPresetFactory/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build
 .PHONY : MilkdropPresetFactory/fast
 
 # target to build an object file
 BuiltinFuncs.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.o
 .PHONY : BuiltinFuncs.o
 
 # target to preprocess a source file
 BuiltinFuncs.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.i
 .PHONY : BuiltinFuncs.i
 
 # target to generate assembly for a file
 BuiltinFuncs.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.s
 .PHONY : BuiltinFuncs.s
 
 # target to build an object file
 BuiltinParams.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.o
 .PHONY : BuiltinParams.o
 
 # target to preprocess a source file
 BuiltinParams.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.i
 .PHONY : BuiltinParams.i
 
 # target to generate assembly for a file
 BuiltinParams.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.s
 .PHONY : BuiltinParams.s
 
 # target to build an object file
 CustomShape.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.o
 .PHONY : CustomShape.o
 
 # target to preprocess a source file
 CustomShape.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.i
 .PHONY : CustomShape.i
 
 # target to generate assembly for a file
 CustomShape.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.s
 .PHONY : CustomShape.s
 
 # target to build an object file
 CustomWave.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.o
 .PHONY : CustomWave.o
 
 # target to preprocess a source file
 CustomWave.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.i
 .PHONY : CustomWave.i
 
 # target to generate assembly for a file
 CustomWave.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.s
 .PHONY : CustomWave.s
 
 # target to build an object file
 Eval.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.o
 .PHONY : Eval.o
 
 # target to preprocess a source file
 Eval.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.i
 .PHONY : Eval.i
 
 # target to generate assembly for a file
 Eval.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.s
 .PHONY : Eval.s
 
 # target to build an object file
 Expr.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.o
 .PHONY : Expr.o
 
 # target to preprocess a source file
 Expr.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.i
 .PHONY : Expr.i
 
 # target to generate assembly for a file
 Expr.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.s
 .PHONY : Expr.s
 
 # target to build an object file
 Func.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.o
 .PHONY : Func.o
 
 # target to preprocess a source file
 Func.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.i
 .PHONY : Func.i
 
 # target to generate assembly for a file
 Func.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.s
 .PHONY : Func.s
 
 # target to build an object file
 IdlePreset.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.o
 .PHONY : IdlePreset.o
 
 # target to preprocess a source file
 IdlePreset.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.i
 .PHONY : IdlePreset.i
 
 # target to generate assembly for a file
 IdlePreset.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.s
 .PHONY : IdlePreset.s
 
 # target to build an object file
 InitCond.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.o
 .PHONY : InitCond.o
 
 # target to preprocess a source file
 InitCond.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.i
 .PHONY : InitCond.i
 
 # target to generate assembly for a file
 InitCond.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.s
 .PHONY : InitCond.s
 
 # target to build an object file
 MilkdropPreset.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.o
 .PHONY : MilkdropPreset.o
 
 # target to preprocess a source file
 MilkdropPreset.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.i
 .PHONY : MilkdropPreset.i
 
 # target to generate assembly for a file
 MilkdropPreset.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.s
 .PHONY : MilkdropPreset.s
 
 # target to build an object file
 MilkdropPresetFactory.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.o
 .PHONY : MilkdropPresetFactory.o
 
 # target to preprocess a source file
 MilkdropPresetFactory.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.i
 .PHONY : MilkdropPresetFactory.i
 
 # target to generate assembly for a file
 MilkdropPresetFactory.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.s
 .PHONY : MilkdropPresetFactory.s
 
 # target to build an object file
 Param.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.o
 .PHONY : Param.o
 
 # target to preprocess a source file
 Param.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.i
 .PHONY : Param.i
 
 # target to generate assembly for a file
 Param.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.s
 .PHONY : Param.s
 
 # target to build an object file
 Parser.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.o
 .PHONY : Parser.o
 
 # target to preprocess a source file
 Parser.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.i
 .PHONY : Parser.i
 
 # target to generate assembly for a file
 Parser.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.s
 .PHONY : Parser.s
 
 # target to build an object file
 PerFrameEqn.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.o
 .PHONY : PerFrameEqn.o
 
 # target to preprocess a source file
 PerFrameEqn.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.i
 .PHONY : PerFrameEqn.i
 
 # target to generate assembly for a file
 PerFrameEqn.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.s
 .PHONY : PerFrameEqn.s
 
 # target to build an object file
 PerPixelEqn.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.o
 .PHONY : PerPixelEqn.o
 
 # target to preprocess a source file
 PerPixelEqn.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.i
 .PHONY : PerPixelEqn.i
 
 # target to generate assembly for a file
 PerPixelEqn.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.s
 .PHONY : PerPixelEqn.s
 
 # target to build an object file
 PerPointEqn.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.o
 .PHONY : PerPointEqn.o
 
 # target to preprocess a source file
 PerPointEqn.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.i
 .PHONY : PerPointEqn.i
 
 # target to generate assembly for a file
 PerPointEqn.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.s
 .PHONY : PerPointEqn.s
 
 # target to build an object file
 PresetFrameIO.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.o
 .PHONY : PresetFrameIO.o
 
 # target to preprocess a source file
 PresetFrameIO.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.i
 .PHONY : PresetFrameIO.i
 
 # target to generate assembly for a file
 PresetFrameIO.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.s
 .PHONY : PresetFrameIO.s
 
 # Help Target
@@ -505,6 +505,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

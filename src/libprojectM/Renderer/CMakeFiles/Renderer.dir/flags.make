@@ -3,11 +3,11 @@
 
 # compile C with /usr/bin/gcc
 # compile CXX with /usr/bin/c++
-C_FLAGS =  -fPIC -I/usr/include/freetype2 -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM    -DCMAKE_INSTALL_PREFIX="\"/usr/local\""
+C_FLAGS =  -fPIC -I/usr/include/freetype2 -I/home/apaul/src/projectm/src/libprojectM    -DCMAKE_INSTALL_PREFIX="\"/usr/local\""
 
 C_DEFINES = -DUSE_FBO -DUSE_FTGL -DUSE_THREADS -DLINUX -DSTBI_NO_DDS -DUSE_THREADS
 
-CXX_FLAGS =  -fPIC -I/usr/include/freetype2 -I/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM    -DCMAKE_INSTALL_PREFIX="\"/usr/local\""
+CXX_FLAGS =  -fPIC -I/usr/include/freetype2 -I/home/apaul/src/projectm/src/libprojectM    -DCMAKE_INSTALL_PREFIX="\"/usr/local\""
 
 CXX_DEFINES = -DUSE_FBO -DUSE_FTGL -DUSE_THREADS -DLINUX -DSTBI_NO_DDS -DUSE_THREADS
 

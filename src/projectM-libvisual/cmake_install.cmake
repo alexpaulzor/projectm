@@ -1,4 +1,4 @@
-# Install script for directory: /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual
+# Install script for directory: /home/apaul/src/projectm/src/projectM-libvisual
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/lib/libvisual-0.4/actor/libprojectM_libvisual.so")
-FILE(INSTALL DESTINATION "/usr/lib/libvisual-0.4/actor" TYPE SHARED_LIBRARY FILES "/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/libprojectM_libvisual.so")
+FILE(INSTALL DESTINATION "/usr/lib/libvisual-0.4/actor" TYPE SHARED_LIBRARY FILES "/home/apaul/src/projectm/src/projectM-libvisual/libprojectM_libvisual.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/lib/libvisual-0.4/actor/libprojectM_libvisual.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/libvisual-0.4/actor/libprojectM_libvisual.so")
     FILE(RPATH_REMOVE

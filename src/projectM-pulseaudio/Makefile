@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CPackSourceConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/src/projectm/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/CMakeFiles/progress.marks
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-pulseaudio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles /home/apaul/src/projectm/src/projectM-pulseaudio/CMakeFiles/progress.marks
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-pulseaudio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-pulseaudio/clean
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-pulseaudio/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-pulseaudio/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-pulseaudio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-pulseaudio/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-pulseaudio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/rule
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/rule
 
 # Convenience name for target.
@@ -170,127 +170,127 @@ projectM-pulseaudio: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/rule
 
 # fast build rule for target.
 projectM-pulseaudio/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build
 .PHONY : projectM-pulseaudio/fast
 
 # target to build an object file
 ConfigFile.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.o
 .PHONY : ConfigFile.o
 
 # target to preprocess a source file
 ConfigFile.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.i
 .PHONY : ConfigFile.i
 
 # target to generate assembly for a file
 ConfigFile.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.s
 .PHONY : ConfigFile.s
 
 # target to build an object file
 QPulseAudioDeviceChooser.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.o
 .PHONY : QPulseAudioDeviceChooser.o
 
 # target to preprocess a source file
 QPulseAudioDeviceChooser.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.i
 .PHONY : QPulseAudioDeviceChooser.i
 
 # target to generate assembly for a file
 QPulseAudioDeviceChooser.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.s
 .PHONY : QPulseAudioDeviceChooser.s
 
 # target to build an object file
 QPulseAudioDeviceModel.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.o
 .PHONY : QPulseAudioDeviceModel.o
 
 # target to preprocess a source file
 QPulseAudioDeviceModel.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.i
 .PHONY : QPulseAudioDeviceModel.i
 
 # target to generate assembly for a file
 QPulseAudioDeviceModel.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.s
 .PHONY : QPulseAudioDeviceModel.s
 
 # target to build an object file
 QPulseAudioThread.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.o
 .PHONY : QPulseAudioThread.o
 
 # target to preprocess a source file
 QPulseAudioThread.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.i
 .PHONY : QPulseAudioThread.i
 
 # target to generate assembly for a file
 QPulseAudioThread.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.s
 .PHONY : QPulseAudioThread.s
 
 # target to build an object file
 moc_QPulseAudioDeviceChooser.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.o
 .PHONY : moc_QPulseAudioDeviceChooser.o
 
 # target to preprocess a source file
 moc_QPulseAudioDeviceChooser.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.i
 .PHONY : moc_QPulseAudioDeviceChooser.i
 
 # target to generate assembly for a file
 moc_QPulseAudioDeviceChooser.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.s
 .PHONY : moc_QPulseAudioDeviceChooser.s
 
 # target to build an object file
 moc_QPulseAudioDeviceModel.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.o
 .PHONY : moc_QPulseAudioDeviceModel.o
 
 # target to preprocess a source file
 moc_QPulseAudioDeviceModel.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.i
 .PHONY : moc_QPulseAudioDeviceModel.i
 
 # target to generate assembly for a file
 moc_QPulseAudioDeviceModel.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.s
 .PHONY : moc_QPulseAudioDeviceModel.s
 
 # target to build an object file
 moc_QPulseAudioThread.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.o
 .PHONY : moc_QPulseAudioThread.o
 
 # target to preprocess a source file
 moc_QPulseAudioThread.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.i
 .PHONY : moc_QPulseAudioThread.i
 
 # target to generate assembly for a file
 moc_QPulseAudioThread.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.s
 .PHONY : moc_QPulseAudioThread.s
 
 # target to build an object file
 qprojectM-pulseaudio.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.o
 .PHONY : qprojectM-pulseaudio.o
 
 # target to preprocess a source file
 qprojectM-pulseaudio.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.i
 .PHONY : qprojectM-pulseaudio.i
 
 # target to generate assembly for a file
 qprojectM-pulseaudio.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.s
 .PHONY : qprojectM-pulseaudio.s
 
 # Help Target
@@ -343,6 +343,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

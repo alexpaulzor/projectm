@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CPackSourceConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/src/projectm/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/CMakeFiles/progress.marks
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles /home/apaul/src/projectm/src/projectM-test/CMakeFiles/progress.marks
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/clean
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 projectM-test/CMakeFiles/projectM-test.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/CMakeFiles/projectM-test.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/CMakeFiles/projectM-test.dir/rule
 .PHONY : projectM-test/CMakeFiles/projectM-test.dir/rule
 
 # Convenience name for target.
@@ -170,12 +170,12 @@ projectM-test: projectM-test/CMakeFiles/projectM-test.dir/rule
 
 # fast build rule for target.
 projectM-test/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/build
 .PHONY : projectM-test/fast
 
 # Convenience name for target.
 projectM-test/CMakeFiles/projectM-test-memleak.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/CMakeFiles/projectM-test-memleak.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/CMakeFiles/projectM-test-memleak.dir/rule
 .PHONY : projectM-test/CMakeFiles/projectM-test-memleak.dir/rule
 
 # Convenience name for target.
@@ -184,12 +184,12 @@ projectM-test-memleak: projectM-test/CMakeFiles/projectM-test-memleak.dir/rule
 
 # fast build rule for target.
 projectM-test-memleak/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/build
 .PHONY : projectM-test-memleak/fast
 
 # Convenience name for target.
 projectM-test/CMakeFiles/projectM-test-texture.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/CMakeFiles/projectM-test-texture.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-test/CMakeFiles/projectM-test-texture.dir/rule
 .PHONY : projectM-test/CMakeFiles/projectM-test-texture.dir/rule
 
 # Convenience name for target.
@@ -198,115 +198,115 @@ projectM-test-texture: projectM-test/CMakeFiles/projectM-test-texture.dir/rule
 
 # fast build rule for target.
 projectM-test-texture/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/build
 .PHONY : projectM-test-texture/fast
 
 # target to build an object file
 ConfigFile.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/ConfigFile.o
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.o
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/ConfigFile.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/ConfigFile.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/ConfigFile.o
 .PHONY : ConfigFile.o
 
 # target to preprocess a source file
 ConfigFile.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/ConfigFile.i
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.i
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/ConfigFile.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/ConfigFile.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/ConfigFile.i
 .PHONY : ConfigFile.i
 
 # target to generate assembly for a file
 ConfigFile.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/ConfigFile.s
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.s
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/ConfigFile.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/ConfigFile.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/ConfigFile.s
 .PHONY : ConfigFile.s
 
 # target to build an object file
 getConfigFilename.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/getConfigFilename.o
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.o
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/getConfigFilename.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/getConfigFilename.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/getConfigFilename.o
 .PHONY : getConfigFilename.o
 
 # target to preprocess a source file
 getConfigFilename.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/getConfigFilename.i
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.i
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/getConfigFilename.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/getConfigFilename.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/getConfigFilename.i
 .PHONY : getConfigFilename.i
 
 # target to generate assembly for a file
 getConfigFilename.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/getConfigFilename.s
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.s
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/getConfigFilename.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/getConfigFilename.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/getConfigFilename.s
 .PHONY : getConfigFilename.s
 
 # target to build an object file
 projectM-test-memleak.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.o
 .PHONY : projectM-test-memleak.o
 
 # target to preprocess a source file
 projectM-test-memleak.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.i
 .PHONY : projectM-test-memleak.i
 
 # target to generate assembly for a file
 projectM-test-memleak.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.s
 .PHONY : projectM-test-memleak.s
 
 # target to build an object file
 projectM-test-texture.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/projectM-test-texture.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/projectM-test-texture.o
 .PHONY : projectM-test-texture.o
 
 # target to preprocess a source file
 projectM-test-texture.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/projectM-test-texture.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/projectM-test-texture.i
 .PHONY : projectM-test-texture.i
 
 # target to generate assembly for a file
 projectM-test-texture.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/projectM-test-texture.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/projectM-test-texture.s
 .PHONY : projectM-test-texture.s
 
 # target to build an object file
 projectM-test.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/projectM-test.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/projectM-test.o
 .PHONY : projectM-test.o
 
 # target to preprocess a source file
 projectM-test.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/projectM-test.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/projectM-test.i
 .PHONY : projectM-test.i
 
 # target to generate assembly for a file
 projectM-test.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/projectM-test.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/projectM-test.s
 .PHONY : projectM-test.s
 
 # target to build an object file
 video_init.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/video_init.o
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.o
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/video_init.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/video_init.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/video_init.o
 .PHONY : video_init.o
 
 # target to preprocess a source file
 video_init.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/video_init.i
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.i
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/video_init.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/video_init.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/video_init.i
 .PHONY : video_init.i
 
 # target to generate assembly for a file
 video_init.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/video_init.s
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.s
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/video_init.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test.dir/build.make projectM-test/CMakeFiles/projectM-test.dir/video_init.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-test/CMakeFiles/projectM-test-texture.dir/build.make projectM-test/CMakeFiles/projectM-test-texture.dir/video_init.s
 .PHONY : video_init.s
 
 # Help Target
@@ -355,6 +355,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

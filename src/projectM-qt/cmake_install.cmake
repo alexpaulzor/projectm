@@ -1,4 +1,4 @@
-# Install script for directory: /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt
+# Install script for directory: /home/apaul/src/projectm/src/projectM-qt
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/libprojectM-qt" TYPE FILE FILES "/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm_mainwindow.hpp")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/libprojectM-qt" TYPE FILE FILES "/home/apaul/src/projectm/src/projectM-qt/qprojectm_mainwindow.hpp")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -50,9 +50,9 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     ENDIF()
   ENDFOREACH()
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/libprojectM-qt.so.1.10"
-    "/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/libprojectM-qt.so.1"
-    "/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/libprojectM-qt.so"
+    "/home/apaul/src/projectm/src/projectM-qt/libprojectM-qt.so.1.10"
+    "/home/apaul/src/projectm/src/projectM-qt/libprojectM-qt.so.1"
+    "/home/apaul/src/projectm/src/projectM-qt/libprojectM-qt.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libprojectM-qt.so.1.10"
@@ -73,12 +73,12 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/local/lib/pkgconfig/libprojectM-qt.pc")
-FILE(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/libprojectM-qt.pc")
+FILE(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/home/apaul/src/projectm/src/projectM-qt/libprojectM-qt.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/local/share/pixmaps/prjm16-transparent.svg")
-FILE(INSTALL DESTINATION "/usr/local/share/pixmaps" TYPE FILE FILES "/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/images/icons/prjm16-transparent.svg")
+FILE(INSTALL DESTINATION "/usr/local/share/pixmaps" TYPE FILE FILES "/home/apaul/src/projectm/src/projectM-qt/images/icons/prjm16-transparent.svg")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

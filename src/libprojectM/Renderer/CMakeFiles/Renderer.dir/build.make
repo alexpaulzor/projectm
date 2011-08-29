@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 # Include any dependencies generated for this target.
 include libprojectM/Renderer/CMakeFiles/Renderer.dir/depend.make
@@ -51,17 +51,17 @@ include libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.o: libprojectM/Renderer/FBO.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/FBO.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/FBO.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/FBO.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/FBO.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/FBO.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/FBO.cpp > CMakeFiles/Renderer.dir/FBO.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/FBO.cpp > CMakeFiles/Renderer.dir/FBO.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/FBO.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/FBO.cpp -o CMakeFiles/Renderer.dir/FBO.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/FBO.cpp -o CMakeFiles/Renderer.dir/FBO.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.o.requires
@@ -74,17 +74,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.o.provides.build: libprojectM/R
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.o: libprojectM/Renderer/MilkdropWaveform.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/MilkdropWaveform.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/MilkdropWaveform.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/MilkdropWaveform.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/MilkdropWaveform.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/MilkdropWaveform.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/MilkdropWaveform.cpp > CMakeFiles/Renderer.dir/MilkdropWaveform.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/MilkdropWaveform.cpp > CMakeFiles/Renderer.dir/MilkdropWaveform.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/MilkdropWaveform.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/MilkdropWaveform.cpp -o CMakeFiles/Renderer.dir/MilkdropWaveform.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/MilkdropWaveform.cpp -o CMakeFiles/Renderer.dir/MilkdropWaveform.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.o.requires
@@ -97,17 +97,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.o.provides.build: 
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.o: libprojectM/Renderer/PerPixelMesh.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/PerPixelMesh.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerPixelMesh.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/PerPixelMesh.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/PerPixelMesh.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/PerPixelMesh.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerPixelMesh.cpp > CMakeFiles/Renderer.dir/PerPixelMesh.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/PerPixelMesh.cpp > CMakeFiles/Renderer.dir/PerPixelMesh.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/PerPixelMesh.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerPixelMesh.cpp -o CMakeFiles/Renderer.dir/PerPixelMesh.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/PerPixelMesh.cpp -o CMakeFiles/Renderer.dir/PerPixelMesh.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.o.requires
@@ -120,17 +120,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.o.provides.build: libp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.o: libprojectM/Renderer/Pipeline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Pipeline.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Pipeline.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Pipeline.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/Pipeline.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/Pipeline.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Pipeline.cpp > CMakeFiles/Renderer.dir/Pipeline.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/Pipeline.cpp > CMakeFiles/Renderer.dir/Pipeline.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/Pipeline.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Pipeline.cpp -o CMakeFiles/Renderer.dir/Pipeline.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/Pipeline.cpp -o CMakeFiles/Renderer.dir/Pipeline.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.o.requires
@@ -143,17 +143,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.o.provides.build: libproje
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.o: libprojectM/Renderer/Renderer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Renderer.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderer.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Renderer.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/Renderer.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/Renderer.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderer.cpp > CMakeFiles/Renderer.dir/Renderer.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/Renderer.cpp > CMakeFiles/Renderer.dir/Renderer.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/Renderer.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderer.cpp -o CMakeFiles/Renderer.dir/Renderer.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/Renderer.cpp -o CMakeFiles/Renderer.dir/Renderer.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.o.requires
@@ -166,17 +166,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.o.provides.build: libproje
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.o: libprojectM/Renderer/ShaderEngine.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/ShaderEngine.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/ShaderEngine.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/ShaderEngine.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/ShaderEngine.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/ShaderEngine.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/ShaderEngine.cpp > CMakeFiles/Renderer.dir/ShaderEngine.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/ShaderEngine.cpp > CMakeFiles/Renderer.dir/ShaderEngine.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/ShaderEngine.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/ShaderEngine.cpp -o CMakeFiles/Renderer.dir/ShaderEngine.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/ShaderEngine.cpp -o CMakeFiles/Renderer.dir/ShaderEngine.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.o.requires
@@ -189,17 +189,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.o.provides.build: libp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.o: libprojectM/Renderer/UserTexture.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/UserTexture.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/UserTexture.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/UserTexture.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/UserTexture.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/UserTexture.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/UserTexture.cpp > CMakeFiles/Renderer.dir/UserTexture.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/UserTexture.cpp > CMakeFiles/Renderer.dir/UserTexture.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/UserTexture.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/UserTexture.cpp -o CMakeFiles/Renderer.dir/UserTexture.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/UserTexture.cpp -o CMakeFiles/Renderer.dir/UserTexture.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.o.requires
@@ -212,17 +212,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.o.provides.build: libpr
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.o: libprojectM/Renderer/Waveform.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Waveform.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Waveform.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Waveform.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/Waveform.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/Waveform.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Waveform.cpp > CMakeFiles/Renderer.dir/Waveform.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/Waveform.cpp > CMakeFiles/Renderer.dir/Waveform.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/Waveform.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Waveform.cpp -o CMakeFiles/Renderer.dir/Waveform.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/Waveform.cpp -o CMakeFiles/Renderer.dir/Waveform.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.o.requires
@@ -235,17 +235,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.o.provides.build: libproje
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.o: libprojectM/Renderer/Filters.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Filters.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Filters.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Filters.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/Filters.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/Filters.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Filters.cpp > CMakeFiles/Renderer.dir/Filters.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/Filters.cpp > CMakeFiles/Renderer.dir/Filters.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/Filters.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Filters.cpp -o CMakeFiles/Renderer.dir/Filters.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/Filters.cpp -o CMakeFiles/Renderer.dir/Filters.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.o.requires
@@ -258,17 +258,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.o.provides.build: libprojec
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.o: libprojectM/Renderer/PerlinNoise.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/PerlinNoise.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerlinNoise.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/PerlinNoise.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/PerlinNoise.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/PerlinNoise.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerlinNoise.cpp > CMakeFiles/Renderer.dir/PerlinNoise.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/PerlinNoise.cpp > CMakeFiles/Renderer.dir/PerlinNoise.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/PerlinNoise.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerlinNoise.cpp -o CMakeFiles/Renderer.dir/PerlinNoise.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/PerlinNoise.cpp -o CMakeFiles/Renderer.dir/PerlinNoise.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.o.requires
@@ -281,17 +281,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.o.provides.build: libpr
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.o: libprojectM/Renderer/PipelineContext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/PipelineContext.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PipelineContext.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/PipelineContext.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/PipelineContext.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/PipelineContext.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PipelineContext.cpp > CMakeFiles/Renderer.dir/PipelineContext.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/PipelineContext.cpp > CMakeFiles/Renderer.dir/PipelineContext.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/PipelineContext.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PipelineContext.cpp -o CMakeFiles/Renderer.dir/PipelineContext.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/PipelineContext.cpp -o CMakeFiles/Renderer.dir/PipelineContext.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.o.requires
@@ -304,17 +304,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.o.provides.build: l
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.o: libprojectM/Renderer/Renderable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Renderable.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Renderable.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/Renderable.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.cpp > CMakeFiles/Renderer.dir/Renderable.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.cpp > CMakeFiles/Renderer.dir/Renderable.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/Renderable.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.cpp -o CMakeFiles/Renderer.dir/Renderable.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.cpp -o CMakeFiles/Renderer.dir/Renderable.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.o.requires
@@ -327,17 +327,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.o.provides.build: libpro
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.o: libprojectM/Renderer/BeatDetect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/BeatDetect.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/BeatDetect.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/BeatDetect.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.cpp > CMakeFiles/Renderer.dir/BeatDetect.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.cpp > CMakeFiles/Renderer.dir/BeatDetect.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/BeatDetect.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.cpp -o CMakeFiles/Renderer.dir/BeatDetect.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.cpp -o CMakeFiles/Renderer.dir/BeatDetect.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.o.requires
@@ -350,17 +350,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.o.provides.build: libpro
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.o: libprojectM/Renderer/Shader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Shader.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Shader.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/Shader.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/Shader.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/Shader.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Shader.cpp > CMakeFiles/Renderer.dir/Shader.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/Shader.cpp > CMakeFiles/Renderer.dir/Shader.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/Shader.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Shader.cpp -o CMakeFiles/Renderer.dir/Shader.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/Shader.cpp -o CMakeFiles/Renderer.dir/Shader.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.o.requires
@@ -373,17 +373,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.o.provides.build: libproject
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.o: libprojectM/Renderer/TextureManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/TextureManager.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/TextureManager.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/TextureManager.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/TextureManager.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/TextureManager.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/TextureManager.cpp > CMakeFiles/Renderer.dir/TextureManager.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/TextureManager.cpp > CMakeFiles/Renderer.dir/TextureManager.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/TextureManager.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/TextureManager.cpp -o CMakeFiles/Renderer.dir/TextureManager.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/TextureManager.cpp -o CMakeFiles/Renderer.dir/TextureManager.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.o.requires
@@ -396,17 +396,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.o.provides.build: li
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.o: libprojectM/Renderer/VideoEcho.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/VideoEcho.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/VideoEcho.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/VideoEcho.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/VideoEcho.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/VideoEcho.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/VideoEcho.cpp > CMakeFiles/Renderer.dir/VideoEcho.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/VideoEcho.cpp > CMakeFiles/Renderer.dir/VideoEcho.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/VideoEcho.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/VideoEcho.cpp -o CMakeFiles/Renderer.dir/VideoEcho.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/VideoEcho.cpp -o CMakeFiles/Renderer.dir/VideoEcho.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.o.requires
@@ -419,17 +419,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.o.provides.build: libproj
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.o: libprojectM/Renderer/RenderItemDistanceMetric.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/RenderItemDistanceMetric.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemDistanceMetric.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/RenderItemDistanceMetric.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemDistanceMetric.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/RenderItemDistanceMetric.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemDistanceMetric.cpp > CMakeFiles/Renderer.dir/RenderItemDistanceMetric.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemDistanceMetric.cpp > CMakeFiles/Renderer.dir/RenderItemDistanceMetric.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/RenderItemDistanceMetric.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemDistanceMetric.cpp -o CMakeFiles/Renderer.dir/RenderItemDistanceMetric.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemDistanceMetric.cpp -o CMakeFiles/Renderer.dir/RenderItemDistanceMetric.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.o.requires
@@ -442,17 +442,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.o.provides
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.o: libprojectM/Renderer/RenderItemMatcher.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/RenderItemMatcher.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemMatcher.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Renderer.dir/RenderItemMatcher.o -c /home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemMatcher.cpp
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/RenderItemMatcher.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemMatcher.cpp > CMakeFiles/Renderer.dir/RenderItemMatcher.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemMatcher.cpp > CMakeFiles/Renderer.dir/RenderItemMatcher.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/RenderItemMatcher.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/RenderItemMatcher.cpp -o CMakeFiles/Renderer.dir/RenderItemMatcher.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/RenderItemMatcher.cpp -o CMakeFiles/Renderer.dir/RenderItemMatcher.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.o.requires
@@ -465,17 +465,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.o.provides.build:
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.o: libprojectM/Renderer/SOIL/image_DXT.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Renderer.dir/SOIL/image_DXT.o   -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_DXT.c
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Renderer.dir/SOIL/image_DXT.o   -c /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_DXT.c
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Renderer.dir/SOIL/image_DXT.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_DXT.c > CMakeFiles/Renderer.dir/SOIL/image_DXT.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_DXT.c > CMakeFiles/Renderer.dir/SOIL/image_DXT.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Renderer.dir/SOIL/image_DXT.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_DXT.c -o CMakeFiles/Renderer.dir/SOIL/image_DXT.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_DXT.c -o CMakeFiles/Renderer.dir/SOIL/image_DXT.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.o.requires
@@ -488,17 +488,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.o.provides.build: li
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.o: libprojectM/Renderer/SOIL/image_helper.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Renderer.dir/SOIL/image_helper.o   -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_helper.c
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Renderer.dir/SOIL/image_helper.o   -c /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_helper.c
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Renderer.dir/SOIL/image_helper.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_helper.c > CMakeFiles/Renderer.dir/SOIL/image_helper.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_helper.c > CMakeFiles/Renderer.dir/SOIL/image_helper.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Renderer.dir/SOIL/image_helper.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/image_helper.c -o CMakeFiles/Renderer.dir/SOIL/image_helper.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/image_helper.c -o CMakeFiles/Renderer.dir/SOIL/image_helper.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.o.requires
@@ -511,17 +511,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.o.provides.build:
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.o: libprojectM/Renderer/SOIL/SOIL.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Renderer.dir/SOIL/SOIL.o   -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/SOIL.c
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Renderer.dir/SOIL/SOIL.o   -c /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/SOIL.c
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Renderer.dir/SOIL/SOIL.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/SOIL.c > CMakeFiles/Renderer.dir/SOIL/SOIL.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/SOIL.c > CMakeFiles/Renderer.dir/SOIL/SOIL.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Renderer.dir/SOIL/SOIL.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/SOIL.c -o CMakeFiles/Renderer.dir/SOIL/SOIL.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/SOIL.c -o CMakeFiles/Renderer.dir/SOIL/SOIL.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.o.requires
@@ -534,17 +534,17 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.o.provides.build: libproj
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.o: libprojectM/Renderer/CMakeFiles/Renderer.dir/flags.make
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.o: libprojectM/Renderer/SOIL/stb_image_aug.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Renderer.dir/SOIL/stb_image_aug.o   -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/stb_image_aug.c
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Renderer.dir/SOIL/stb_image_aug.o   -c /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/stb_image_aug.c
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Renderer.dir/SOIL/stb_image_aug.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/stb_image_aug.c > CMakeFiles/Renderer.dir/SOIL/stb_image_aug.i
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/stb_image_aug.c > CMakeFiles/Renderer.dir/SOIL/stb_image_aug.i
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Renderer.dir/SOIL/stb_image_aug.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/SOIL/stb_image_aug.c -o CMakeFiles/Renderer.dir/SOIL/stb_image_aug.s
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Renderer/SOIL/stb_image_aug.c -o CMakeFiles/Renderer.dir/SOIL/stb_image_aug.s
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.o.requires:
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.o.requires
@@ -608,8 +608,8 @@ libprojectM/Renderer/libRenderer.a: libprojectM/Renderer/CMakeFiles/Renderer.dir
 libprojectM/Renderer/libRenderer.a: libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make
 libprojectM/Renderer/libRenderer.a: libprojectM/Renderer/CMakeFiles/Renderer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libRenderer.a"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && $(CMAKE_COMMAND) -P CMakeFiles/Renderer.dir/cmake_clean_target.cmake
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Renderer.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && $(CMAKE_COMMAND) -P CMakeFiles/Renderer.dir/cmake_clean_target.cmake
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Renderer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libprojectM/Renderer/CMakeFiles/Renderer.dir/build: libprojectM/Renderer/libRenderer.a
@@ -640,10 +640,10 @@ libprojectM/Renderer/CMakeFiles/Renderer.dir/requires: libprojectM/Renderer/CMak
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/requires
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer && $(CMAKE_COMMAND) -P CMakeFiles/Renderer.dir/cmake_clean.cmake
+	cd /home/apaul/src/projectm/src/libprojectM/Renderer && $(CMAKE_COMMAND) -P CMakeFiles/Renderer.dir/cmake_clean.cmake
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/clean
 
 libprojectM/Renderer/CMakeFiles/Renderer.dir/depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/CMakeFiles/Renderer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/src/projectm/src /home/apaul/src/projectm/src/libprojectM/Renderer /home/apaul/src/projectm/src /home/apaul/src/projectm/src/libprojectM/Renderer /home/apaul/src/projectm/src/libprojectM/Renderer/CMakeFiles/Renderer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/depend
 

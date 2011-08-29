@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/configfile.cpp
+/home/apaul/src/projectm/src/projectM-qt/configfile.cpp
 configfile.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/configfile.hpp
+/home/apaul/src/projectm/src/projectM-qt/configfile.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/configfile.hpp
+/home/apaul/src/projectm/src/projectM-qt/configfile.hpp
 string
 -
 map
@@ -22,53 +22,53 @@ fstream
 sstream
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylistfiledialog.cxx
+/home/apaul/src/projectm/src/projectM-qt/moc_qplaylistfiledialog.cxx
 qplaylistfiledialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistfiledialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylistfiledialog.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylistmodel.cxx
+/home/apaul/src/projectm/src/projectM-qt/moc_qplaylistmodel.cxx
 qplaylistmodel.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistmodel.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylistmodel.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qplaylisttableview.cxx
+/home/apaul/src/projectm/src/projectM-qt/moc_qplaylisttableview.cxx
 qplaylisttableview.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylisttableview.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylisttableview.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpreseteditordialog.cxx
+/home/apaul/src/projectm/src/projectM-qt/moc_qpreseteditordialog.cxx
 qpreseteditordialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpreseteditordialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpreseteditordialog.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpresetfiledialog.cxx
+/home/apaul/src/projectm/src/projectM-qt/moc_qpresetfiledialog.cxx
 qpresetfiledialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresetfiledialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpresetfiledialog.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qpresettextedit.cxx
+/home/apaul/src/projectm/src/projectM-qt/moc_qpresettextedit.cxx
 qpresettextedit.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresettextedit.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpresettextedit.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectm.cxx
+/home/apaul/src/projectm/src/projectM-qt/moc_qprojectm.cxx
 qprojectm.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectm.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectm_mainwindow.cxx
+/home/apaul/src/projectm/src/projectM-qt/moc_qprojectm_mainwindow.cxx
 qprojectm_mainwindow.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm_mainwindow.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectm_mainwindow.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectmconfigdialog.cxx
+/home/apaul/src/projectm/src/projectM-qt/moc_qprojectmconfigdialog.cxx
 qprojectmconfigdialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmconfigdialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectmconfigdialog.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/moc_qprojectmwidget.cxx
+/home/apaul/src/projectm/src/projectM-qt/moc_qprojectmwidget.cxx
 qprojectmwidget.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmwidget.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectmwidget.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/nullable.hpp
+/home/apaul/src/projectm/src/projectM-qt/nullable.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistfiledialog.cpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylistfiledialog.cpp
 qplaylistfiledialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistfiledialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylistfiledialog.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistfiledialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylistfiledialog.hpp
 QFileDialog
 -
 QStringList
@@ -76,7 +76,7 @@ QStringList
 QtDebug
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistmodel.cpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylistmodel.cpp
 QIcon
 -
 QXmlStreamReader
@@ -90,13 +90,13 @@ QDir
 QMessageBox
 -
 qxmlplaylisthandler.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qxmlplaylisthandler.hpp
+/home/apaul/src/projectm/src/projectM-qt/qxmlplaylisthandler.hpp
 qplaylistmodel.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistmodel.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylistmodel.hpp
 QMimeData
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistmodel.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylistmodel.hpp
 cassert
 -
 QAbstractTableModel
@@ -110,7 +110,7 @@ QStringList
 QtDebug
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylisttableview.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylisttableview.hpp
 QTableView
 -
 QtDebug
@@ -124,9 +124,9 @@ QList
 QMenu
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpreseteditordialog.cpp
+/home/apaul/src/projectm/src/projectM-qt/qpreseteditordialog.cpp
 qpreseteditordialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpreseteditordialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpreseteditordialog.hpp
 QFile
 -
 QMessageBox
@@ -134,13 +134,13 @@ QMessageBox
 QKeyEvent
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpreseteditordialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpreseteditordialog.hpp
 ui_qpreseteditordialog.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/ui_qpreseteditordialog.h
+/home/apaul/src/projectm/src/projectM-qt/ui_qpreseteditordialog.h
 QModelIndex
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresetfiledialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpresetfiledialog.hpp
 QMainWindow
 -
 QCloseEvent
@@ -154,9 +154,9 @@ iostream
 QFileDialog
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresettextedit.cpp
+/home/apaul/src/projectm/src/projectM-qt/qpresettextedit.cpp
 qpresettextedit.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresettextedit.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpresettextedit.hpp
 QFile
 -
 QMessageBox
@@ -164,27 +164,27 @@ QMessageBox
 QKeyEvent
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresettextedit.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpresettextedit.hpp
 QTextEdit
 -
 QtDebug
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectm.hpp
 projectM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/projectM.hpp
+/home/apaul/src/projectm/src/projectM-qt/projectM.hpp
 QObject
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm_mainwindow.cpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectm_mainwindow.cpp
 QtGui
 -
 qprojectm_mainwindow.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm_mainwindow.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectm_mainwindow.hpp
 qpresetfiledialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresetfiledialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpresetfiledialog.hpp
 qplaylistfiledialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistfiledialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylistfiledialog.hpp
 QTextStream
 -
 QCloseEvent
@@ -192,29 +192,29 @@ QCloseEvent
 QFileDialog
 -
 qplaylistmodel.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistmodel.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylistmodel.hpp
 qpresettextedit.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresettextedit.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpresettextedit.hpp
 ui_qprojectm_mainwindow.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/ui_qprojectm_mainwindow.h
+/home/apaul/src/projectm/src/projectM-qt/ui_qprojectm_mainwindow.h
 qprojectmconfigdialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmconfigdialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectmconfigdialog.hpp
 qpreseteditordialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpreseteditordialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpreseteditordialog.hpp
 ui_qpreseteditordialog.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/ui_qpreseteditordialog.h
+/home/apaul/src/projectm/src/projectM-qt/ui_qpreseteditordialog.h
 configfile.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/configfile.hpp
+/home/apaul/src/projectm/src/projectM-qt/configfile.hpp
 qxmlplaylisthandler.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qxmlplaylisthandler.hpp
+/home/apaul/src/projectm/src/projectM-qt/qxmlplaylisthandler.hpp
 nullable.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/nullable.hpp
+/home/apaul/src/projectm/src/projectM-qt/nullable.hpp
 qprojectmwidget.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmwidget.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectmwidget.hpp
 QMouseEvent
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm_mainwindow.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectm_mainwindow.hpp
 QMainWindow
 -
 QCloseEvent
@@ -230,37 +230,37 @@ QtDebug
 QMutex
 -
 projectM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/projectM.hpp
+/home/apaul/src/projectm/src/projectM-qt/projectM.hpp
 QModelIndexList
 -
 iostream
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmconfigdialog.cpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectmconfigdialog.cpp
 qprojectmconfigdialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmconfigdialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectmconfigdialog.hpp
 QtDebug
 -
 QAction
 -
 qplaylistfiledialog.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylistfiledialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylistfiledialog.hpp
 QSettings
 -
 qprojectmwidget.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmwidget.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectmwidget.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmconfigdialog.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectmconfigdialog.hpp
 ui_qprojectmconfigdialog.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/ui_qprojectmconfigdialog.h
+/home/apaul/src/projectm/src/projectM-qt/ui_qprojectmconfigdialog.h
 qprojectm_mainwindow.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm_mainwindow.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectm_mainwindow.hpp
 QSettings
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectmwidget.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectmwidget.hpp
 qprojectm.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qprojectm.hpp
+/home/apaul/src/projectm/src/projectM-qt/qprojectm.hpp
 QGLWidget
 -
 QMutex
@@ -276,17 +276,17 @@ QApplication
 QSettings
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qrc_application.cxx
+/home/apaul/src/projectm/src/projectM-qt/qrc_application.cxx
 QtCore/qglobal.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qxmlplaylisthandler.hpp
+/home/apaul/src/projectm/src/projectM-qt/qxmlplaylisthandler.hpp
 QXmlStreamReader
 -
 QXmlStreamWriter
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/ui_qpreseteditordialog.h
+/home/apaul/src/projectm/src/projectM-qt/ui_qpreseteditordialog.h
 QtCore/QVariant
 -
 QtGui/QAction
@@ -306,9 +306,9 @@ QtGui/QHeaderView
 QtGui/QWidget
 -
 qpresettextedit.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qpresettextedit.hpp
+/home/apaul/src/projectm/src/projectM-qt/qpresettextedit.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/ui_qprojectm_mainwindow.h
+/home/apaul/src/projectm/src/projectM-qt/ui_qprojectm_mainwindow.h
 QtCore/QVariant
 -
 QtGui/QAction
@@ -340,9 +340,9 @@ QtGui/QStatusBar
 QtGui/QWidget
 -
 qplaylisttableview.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/qplaylisttableview.hpp
+/home/apaul/src/projectm/src/projectM-qt/qplaylisttableview.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/ui_qprojectmconfigdialog.h
+/home/apaul/src/projectm/src/projectM-qt/ui_qprojectmconfigdialog.h
 QtCore/QVariant
 -
 QtGui/QAction

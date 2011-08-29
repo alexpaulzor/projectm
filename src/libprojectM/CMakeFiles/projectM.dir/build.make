@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 # Include any dependencies generated for this target.
 include libprojectM/CMakeFiles/projectM.dir/depend.make
@@ -51,17 +51,17 @@ include libprojectM/CMakeFiles/projectM.dir/flags.make
 
 libprojectM/CMakeFiles/projectM.dir/projectM.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/projectM.cpp.o: libprojectM/projectM.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/projectM.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/projectM.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/projectM.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/projectM.cpp.o -c /home/apaul/src/projectm/src/libprojectM/projectM.cpp
 
 libprojectM/CMakeFiles/projectM.dir/projectM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/projectM.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/projectM.cpp > CMakeFiles/projectM.dir/projectM.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/projectM.cpp > CMakeFiles/projectM.dir/projectM.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/projectM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/projectM.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/projectM.cpp -o CMakeFiles/projectM.dir/projectM.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/projectM.cpp -o CMakeFiles/projectM.dir/projectM.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/projectM.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/projectM.cpp.o.requires
@@ -74,17 +74,17 @@ libprojectM/CMakeFiles/projectM.dir/projectM.cpp.o.provides.build: libprojectM/C
 
 libprojectM/CMakeFiles/projectM.dir/PCM.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/PCM.cpp.o: libprojectM/PCM.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/PCM.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PCM.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PCM.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PCM.cpp.o -c /home/apaul/src/projectm/src/libprojectM/PCM.cpp
 
 libprojectM/CMakeFiles/projectM.dir/PCM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/PCM.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PCM.cpp > CMakeFiles/projectM.dir/PCM.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/PCM.cpp > CMakeFiles/projectM.dir/PCM.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/PCM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/PCM.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PCM.cpp -o CMakeFiles/projectM.dir/PCM.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/PCM.cpp -o CMakeFiles/projectM.dir/PCM.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/PCM.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/PCM.cpp.o.requires
@@ -97,17 +97,17 @@ libprojectM/CMakeFiles/projectM.dir/PCM.cpp.o.provides.build: libprojectM/CMakeF
 
 libprojectM/CMakeFiles/projectM.dir/Preset.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/Preset.cpp.o: libprojectM/Preset.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/Preset.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/Preset.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Preset.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/Preset.cpp.o -c /home/apaul/src/projectm/src/libprojectM/Preset.cpp
 
 libprojectM/CMakeFiles/projectM.dir/Preset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/Preset.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Preset.cpp > CMakeFiles/projectM.dir/Preset.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/Preset.cpp > CMakeFiles/projectM.dir/Preset.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/Preset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/Preset.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Preset.cpp -o CMakeFiles/projectM.dir/Preset.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/Preset.cpp -o CMakeFiles/projectM.dir/Preset.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/Preset.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/Preset.cpp.o.requires
@@ -120,17 +120,17 @@ libprojectM/CMakeFiles/projectM.dir/Preset.cpp.o.provides.build: libprojectM/CMa
 
 libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.o: libprojectM/fftsg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/fftsg.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/fftsg.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/fftsg.cpp.o -c /home/apaul/src/projectm/src/libprojectM/fftsg.cpp
 
 libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/fftsg.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/fftsg.cpp > CMakeFiles/projectM.dir/fftsg.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/fftsg.cpp > CMakeFiles/projectM.dir/fftsg.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/fftsg.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/fftsg.cpp -o CMakeFiles/projectM.dir/fftsg.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/fftsg.cpp -o CMakeFiles/projectM.dir/fftsg.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.o.requires
@@ -143,17 +143,17 @@ libprojectM/CMakeFiles/projectM.dir/fftsg.cpp.o.provides.build: libprojectM/CMak
 
 libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.o: libprojectM/KeyHandler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/KeyHandler.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/KeyHandler.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/KeyHandler.cpp.o -c /home/apaul/src/projectm/src/libprojectM/KeyHandler.cpp
 
 libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/KeyHandler.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/KeyHandler.cpp > CMakeFiles/projectM.dir/KeyHandler.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/KeyHandler.cpp > CMakeFiles/projectM.dir/KeyHandler.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/KeyHandler.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/KeyHandler.cpp -o CMakeFiles/projectM.dir/KeyHandler.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/KeyHandler.cpp -o CMakeFiles/projectM.dir/KeyHandler.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.o.requires
@@ -166,17 +166,17 @@ libprojectM/CMakeFiles/projectM.dir/KeyHandler.cpp.o.provides.build: libprojectM
 
 libprojectM/CMakeFiles/projectM.dir/timer.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/timer.cpp.o: libprojectM/timer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/timer.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/timer.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/timer.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/timer.cpp.o -c /home/apaul/src/projectm/src/libprojectM/timer.cpp
 
 libprojectM/CMakeFiles/projectM.dir/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/timer.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/timer.cpp > CMakeFiles/projectM.dir/timer.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/timer.cpp > CMakeFiles/projectM.dir/timer.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/timer.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/timer.cpp -o CMakeFiles/projectM.dir/timer.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/timer.cpp -o CMakeFiles/projectM.dir/timer.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/timer.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/timer.cpp.o.requires
@@ -189,17 +189,17 @@ libprojectM/CMakeFiles/projectM.dir/timer.cpp.o.provides.build: libprojectM/CMak
 
 libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.o: libprojectM/wipemalloc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/wipemalloc.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/wipemalloc.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/wipemalloc.cpp.o -c /home/apaul/src/projectm/src/libprojectM/wipemalloc.cpp
 
 libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/wipemalloc.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/wipemalloc.cpp > CMakeFiles/projectM.dir/wipemalloc.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/wipemalloc.cpp > CMakeFiles/projectM.dir/wipemalloc.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/wipemalloc.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/wipemalloc.cpp -o CMakeFiles/projectM.dir/wipemalloc.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/wipemalloc.cpp -o CMakeFiles/projectM.dir/wipemalloc.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.o.requires
@@ -212,17 +212,17 @@ libprojectM/CMakeFiles/projectM.dir/wipemalloc.cpp.o.provides.build: libprojectM
 
 libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.o: libprojectM/PresetLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PresetLoader.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetLoader.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PresetLoader.cpp.o -c /home/apaul/src/projectm/src/libprojectM/PresetLoader.cpp
 
 libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/PresetLoader.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetLoader.cpp > CMakeFiles/projectM.dir/PresetLoader.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/PresetLoader.cpp > CMakeFiles/projectM.dir/PresetLoader.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/PresetLoader.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetLoader.cpp -o CMakeFiles/projectM.dir/PresetLoader.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/PresetLoader.cpp -o CMakeFiles/projectM.dir/PresetLoader.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.o.requires
@@ -235,17 +235,17 @@ libprojectM/CMakeFiles/projectM.dir/PresetLoader.cpp.o.provides.build: libprojec
 
 libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.o: libprojectM/PresetChooser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PresetChooser.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetChooser.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PresetChooser.cpp.o -c /home/apaul/src/projectm/src/libprojectM/PresetChooser.cpp
 
 libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/PresetChooser.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetChooser.cpp > CMakeFiles/projectM.dir/PresetChooser.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/PresetChooser.cpp > CMakeFiles/projectM.dir/PresetChooser.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/PresetChooser.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetChooser.cpp -o CMakeFiles/projectM.dir/PresetChooser.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/PresetChooser.cpp -o CMakeFiles/projectM.dir/PresetChooser.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.o.requires
@@ -258,17 +258,17 @@ libprojectM/CMakeFiles/projectM.dir/PresetChooser.cpp.o.provides.build: libproje
 
 libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.o: libprojectM/PipelineMerger.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PipelineMerger.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PipelineMerger.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PipelineMerger.cpp.o -c /home/apaul/src/projectm/src/libprojectM/PipelineMerger.cpp
 
 libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/PipelineMerger.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PipelineMerger.cpp > CMakeFiles/projectM.dir/PipelineMerger.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/PipelineMerger.cpp > CMakeFiles/projectM.dir/PipelineMerger.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/PipelineMerger.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PipelineMerger.cpp -o CMakeFiles/projectM.dir/PipelineMerger.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/PipelineMerger.cpp -o CMakeFiles/projectM.dir/PipelineMerger.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.o.requires
@@ -281,17 +281,17 @@ libprojectM/CMakeFiles/projectM.dir/PipelineMerger.cpp.o.provides.build: libproj
 
 libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.o: libprojectM/ConfigFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/ConfigFile.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/ConfigFile.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/ConfigFile.cpp.o -c /home/apaul/src/projectm/src/libprojectM/ConfigFile.cpp
 
 libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/ConfigFile.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/ConfigFile.cpp > CMakeFiles/projectM.dir/ConfigFile.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/ConfigFile.cpp > CMakeFiles/projectM.dir/ConfigFile.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/ConfigFile.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/ConfigFile.cpp -o CMakeFiles/projectM.dir/ConfigFile.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/ConfigFile.cpp -o CMakeFiles/projectM.dir/ConfigFile.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.o.requires
@@ -304,17 +304,17 @@ libprojectM/CMakeFiles/projectM.dir/ConfigFile.cpp.o.provides.build: libprojectM
 
 libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.o: libprojectM/TimeKeeper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/TimeKeeper.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/TimeKeeper.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/TimeKeeper.cpp.o -c /home/apaul/src/projectm/src/libprojectM/TimeKeeper.cpp
 
 libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/TimeKeeper.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/TimeKeeper.cpp > CMakeFiles/projectM.dir/TimeKeeper.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/TimeKeeper.cpp > CMakeFiles/projectM.dir/TimeKeeper.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/TimeKeeper.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/TimeKeeper.cpp -o CMakeFiles/projectM.dir/TimeKeeper.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/TimeKeeper.cpp -o CMakeFiles/projectM.dir/TimeKeeper.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.o.requires
@@ -327,17 +327,17 @@ libprojectM/CMakeFiles/projectM.dir/TimeKeeper.cpp.o.provides.build: libprojectM
 
 libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.o: libprojectM/PresetFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PresetFactory.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactory.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PresetFactory.cpp.o -c /home/apaul/src/projectm/src/libprojectM/PresetFactory.cpp
 
 libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/PresetFactory.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactory.cpp > CMakeFiles/projectM.dir/PresetFactory.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/PresetFactory.cpp > CMakeFiles/projectM.dir/PresetFactory.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/PresetFactory.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactory.cpp -o CMakeFiles/projectM.dir/PresetFactory.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/PresetFactory.cpp -o CMakeFiles/projectM.dir/PresetFactory.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.o.requires
@@ -350,17 +350,17 @@ libprojectM/CMakeFiles/projectM.dir/PresetFactory.cpp.o.provides.build: libproje
 
 libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.o: libprojectM/CMakeFiles/projectM.dir/flags.make
 libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.o: libprojectM/PresetFactoryManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PresetFactoryManager.cpp.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactoryManager.cpp
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM.dir/PresetFactoryManager.cpp.o -c /home/apaul/src/projectm/src/libprojectM/PresetFactoryManager.cpp
 
 libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM.dir/PresetFactoryManager.cpp.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactoryManager.cpp > CMakeFiles/projectM.dir/PresetFactoryManager.cpp.i
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/PresetFactoryManager.cpp > CMakeFiles/projectM.dir/PresetFactoryManager.cpp.i
 
 libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM.dir/PresetFactoryManager.cpp.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactoryManager.cpp -o CMakeFiles/projectM.dir/PresetFactoryManager.cpp.s
+	cd /home/apaul/src/projectm/src/libprojectM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/PresetFactoryManager.cpp -o CMakeFiles/projectM.dir/PresetFactoryManager.cpp.s
 
 libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.o.requires:
 .PHONY : libprojectM/CMakeFiles/projectM.dir/PresetFactoryManager.cpp.o.requires
@@ -417,8 +417,8 @@ libprojectM/libprojectM.so.2.00: libprojectM/Renderer/libRenderer.a
 libprojectM/libprojectM.so.2.00: libprojectM/CMakeFiles/projectM.dir/build.make
 libprojectM/libprojectM.so.2.00: libprojectM/CMakeFiles/projectM.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libprojectM.so"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectM.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && $(CMAKE_COMMAND) -E cmake_symlink_library libprojectM.so.2.00 libprojectM.so.2 libprojectM.so
+	cd /home/apaul/src/projectm/src/libprojectM && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectM.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/apaul/src/projectm/src/libprojectM && $(CMAKE_COMMAND) -E cmake_symlink_library libprojectM.so.2.00 libprojectM.so.2 libprojectM.so
 
 libprojectM/libprojectM.so.2: libprojectM/libprojectM.so.2.00
 
@@ -445,10 +445,10 @@ libprojectM/CMakeFiles/projectM.dir/requires: libprojectM/CMakeFiles/projectM.di
 .PHONY : libprojectM/CMakeFiles/projectM.dir/requires
 
 libprojectM/CMakeFiles/projectM.dir/clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM && $(CMAKE_COMMAND) -P CMakeFiles/projectM.dir/cmake_clean.cmake
+	cd /home/apaul/src/projectm/src/libprojectM && $(CMAKE_COMMAND) -P CMakeFiles/projectM.dir/cmake_clean.cmake
 .PHONY : libprojectM/CMakeFiles/projectM.dir/clean
 
 libprojectM/CMakeFiles/projectM.dir/depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/CMakeFiles/projectM.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/src/projectm/src /home/apaul/src/projectm/src/libprojectM /home/apaul/src/projectm/src /home/apaul/src/projectm/src/libprojectM /home/apaul/src/projectm/src/libprojectM/CMakeFiles/projectM.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libprojectM/CMakeFiles/projectM.dir/depend
 

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'qpreseteditordialog.ui'
 **
-** Created: Mon Aug 15 22:29:40 2011
+** Created: Sat Aug 27 17:10:55 2011
 **      by: Qt User Interface Compiler version 4.7.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 # Include any dependencies generated for this target.
 include projectM-test/CMakeFiles/projectM-test-memleak.dir/depend.make
@@ -51,17 +51,17 @@ include projectM-test/CMakeFiles/projectM-test-memleak.dir/flags.make
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.o: projectM-test/CMakeFiles/projectM-test-memleak.dir/flags.make
 projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.o: projectM-test/projectM-test-memleak.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/projectM-test-memleak.cpp
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.o -c /home/apaul/src/projectm/src/projectM-test/projectM-test-memleak.cpp
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/projectM-test-memleak.cpp > CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.i
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-test/projectM-test-memleak.cpp > CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.i
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/projectM-test-memleak.cpp -o CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.s
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-test/projectM-test-memleak.cpp -o CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.s
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.o.requires:
 .PHONY : projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.o.requires
@@ -74,17 +74,17 @@ projectM-test/CMakeFiles/projectM-test-memleak.dir/projectM-test-memleak.o.provi
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.o: projectM-test/CMakeFiles/projectM-test-memleak.dir/flags.make
 projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.o: projectM-test/video_init.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-test-memleak.dir/video_init.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/video_init.cpp
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-test-memleak.dir/video_init.o -c /home/apaul/src/projectm/src/projectM-test/video_init.cpp
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-test-memleak.dir/video_init.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/video_init.cpp > CMakeFiles/projectM-test-memleak.dir/video_init.i
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-test/video_init.cpp > CMakeFiles/projectM-test-memleak.dir/video_init.i
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-test-memleak.dir/video_init.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/video_init.cpp -o CMakeFiles/projectM-test-memleak.dir/video_init.s
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-test/video_init.cpp -o CMakeFiles/projectM-test-memleak.dir/video_init.s
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.o.requires:
 .PHONY : projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.o.requires
@@ -97,17 +97,17 @@ projectM-test/CMakeFiles/projectM-test-memleak.dir/video_init.o.provides.build: 
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.o: projectM-test/CMakeFiles/projectM-test-memleak.dir/flags.make
 projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.o: projectM-test/ConfigFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-test-memleak.dir/ConfigFile.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/ConfigFile.cpp
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-test-memleak.dir/ConfigFile.o -c /home/apaul/src/projectm/src/projectM-test/ConfigFile.cpp
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-test-memleak.dir/ConfigFile.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/ConfigFile.cpp > CMakeFiles/projectM-test-memleak.dir/ConfigFile.i
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-test/ConfigFile.cpp > CMakeFiles/projectM-test-memleak.dir/ConfigFile.i
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-test-memleak.dir/ConfigFile.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/ConfigFile.cpp -o CMakeFiles/projectM-test-memleak.dir/ConfigFile.s
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-test/ConfigFile.cpp -o CMakeFiles/projectM-test-memleak.dir/ConfigFile.s
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.o.requires:
 .PHONY : projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.o.requires
@@ -120,17 +120,17 @@ projectM-test/CMakeFiles/projectM-test-memleak.dir/ConfigFile.o.provides.build: 
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.o: projectM-test/CMakeFiles/projectM-test-memleak.dir/flags.make
 projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.o: projectM-test/getConfigFilename.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-test-memleak.dir/getConfigFilename.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/getConfigFilename.cpp
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-test-memleak.dir/getConfigFilename.o -c /home/apaul/src/projectm/src/projectM-test/getConfigFilename.cpp
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-test-memleak.dir/getConfigFilename.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/getConfigFilename.cpp > CMakeFiles/projectM-test-memleak.dir/getConfigFilename.i
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-test/getConfigFilename.cpp > CMakeFiles/projectM-test-memleak.dir/getConfigFilename.i
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-test-memleak.dir/getConfigFilename.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/getConfigFilename.cpp -o CMakeFiles/projectM-test-memleak.dir/getConfigFilename.s
+	cd /home/apaul/src/projectm/src/projectM-test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-test/getConfigFilename.cpp -o CMakeFiles/projectM-test-memleak.dir/getConfigFilename.s
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.o.requires:
 .PHONY : projectM-test/CMakeFiles/projectM-test-memleak.dir/getConfigFilename.o.requires
@@ -170,7 +170,7 @@ projectM-test/projectM-test-memleak: libprojectM/Renderer/libRenderer.a
 projectM-test/projectM-test-memleak: projectM-test/CMakeFiles/projectM-test-memleak.dir/build.make
 projectM-test/projectM-test-memleak: projectM-test/CMakeFiles/projectM-test-memleak.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable projectM-test-memleak"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectM-test-memleak.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/apaul/src/projectm/src/projectM-test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectM-test-memleak.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 projectM-test/CMakeFiles/projectM-test-memleak.dir/build: projectM-test/projectM-test-memleak
@@ -183,10 +183,10 @@ projectM-test/CMakeFiles/projectM-test-memleak.dir/requires: projectM-test/CMake
 .PHONY : projectM-test/CMakeFiles/projectM-test-memleak.dir/requires
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test && $(CMAKE_COMMAND) -P CMakeFiles/projectM-test-memleak.dir/cmake_clean.cmake
+	cd /home/apaul/src/projectm/src/projectM-test && $(CMAKE_COMMAND) -P CMakeFiles/projectM-test-memleak.dir/cmake_clean.cmake
 .PHONY : projectM-test/CMakeFiles/projectM-test-memleak.dir/clean
 
 projectM-test/CMakeFiles/projectM-test-memleak.dir/depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-test/CMakeFiles/projectM-test-memleak.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/src/projectm/src /home/apaul/src/projectm/src/projectM-test /home/apaul/src/projectm/src /home/apaul/src/projectm/src/projectM-test /home/apaul/src/projectm/src/projectM-test/CMakeFiles/projectM-test-memleak.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : projectM-test/CMakeFiles/projectM-test-memleak.dir/depend
 

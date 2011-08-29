@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Common.hpp
 vector
 -
 typeinfo
@@ -18,7 +18,7 @@ cassert
 cstdio
 -
 dlldefs.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/dlldefs.h
 cstdlib
 -
 float.h
@@ -26,11 +26,11 @@ float.h
 string
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/ConfigFile.cpp
+/home/apaul/src/projectm/src/libprojectM/ConfigFile.cpp
 ConfigFile.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/ConfigFile.h
+/home/apaul/src/projectm/src/libprojectM/ConfigFile.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/ConfigFile.h
+/home/apaul/src/projectm/src/libprojectM/ConfigFile.h
 string
 -
 map
@@ -42,65 +42,65 @@ fstream
 sstream
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/KeyHandler.cpp
+/home/apaul/src/projectm/src/libprojectM/KeyHandler.cpp
 stdio.h
 -
 Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Common.hpp
 fatal.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/fatal.h
+/home/apaul/src/projectm/src/libprojectM/fatal.h
 KeyHandler.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/KeyHandler.hpp
+/home/apaul/src/projectm/src/libprojectM/KeyHandler.hpp
 event.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/event.h
+/home/apaul/src/projectm/src/libprojectM/event.h
 BeatDetect.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/BeatDetect.hpp
+/home/apaul/src/projectm/src/libprojectM/BeatDetect.hpp
 PresetChooser.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetChooser.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetChooser.hpp
 Renderer.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer.hpp
 projectM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/projectM.hpp
+/home/apaul/src/projectm/src/libprojectM/projectM.hpp
 iostream
 -
 TimeKeeper.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/TimeKeeper.hpp
+/home/apaul/src/projectm/src/libprojectM/TimeKeeper.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/KeyHandler.hpp
+/home/apaul/src/projectm/src/libprojectM/KeyHandler.hpp
 event.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/event.h
+/home/apaul/src/projectm/src/libprojectM/event.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/../PresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/../PresetFactory.hpp
 Preset.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/../Preset.hpp
+/home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/../Preset.hpp
 memory
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/MilkdropPresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/MilkdropPresetFactory.hpp
 memory
 -
 ../PresetFactory.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/../PresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/../PresetFactory.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/NativePresetFactory/NativePresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/NativePresetFactory/NativePresetFactory.hpp
 memory
 -
 PresetFactory.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/NativePresetFactory/PresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/NativePresetFactory/PresetFactory.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PCM.cpp
+/home/apaul/src/projectm/src/libprojectM/PCM.cpp
 stdlib.h
 -
 stdio.h
 -
 Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Common.hpp
 wipemalloc.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/wipemalloc.h
+/home/apaul/src/projectm/src/libprojectM/wipemalloc.h
 fftsg.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/fftsg.h
+/home/apaul/src/projectm/src/libprojectM/fftsg.h
 PCM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PCM.hpp
+/home/apaul/src/projectm/src/libprojectM/PCM.hpp
 cassert
 -
 iostream
@@ -108,53 +108,53 @@ iostream
 iostream
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PCM.hpp
+/home/apaul/src/projectm/src/libprojectM/PCM.hpp
 dlldefs.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/dlldefs.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PipelineMerger.cpp
+/home/apaul/src/projectm/src/libprojectM/PipelineMerger.cpp
 PipelineMerger.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PipelineMerger.hpp
+/home/apaul/src/projectm/src/libprojectM/PipelineMerger.hpp
 RenderItemMatcher.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/RenderItemMatcher.hpp
+/home/apaul/src/projectm/src/libprojectM/RenderItemMatcher.hpp
 RenderItemMergeFunction.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/RenderItemMergeFunction.hpp
+/home/apaul/src/projectm/src/libprojectM/RenderItemMergeFunction.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PipelineMerger.hpp
+/home/apaul/src/projectm/src/libprojectM/PipelineMerger.hpp
 Preset.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Preset.hpp
+/home/apaul/src/projectm/src/libprojectM/Preset.hpp
 Pipeline.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Pipeline.hpp
+/home/apaul/src/projectm/src/libprojectM/Pipeline.hpp
 RenderItemMatcher.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/RenderItemMatcher.hpp
+/home/apaul/src/projectm/src/libprojectM/RenderItemMatcher.hpp
 RenderItemMergeFunction.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/RenderItemMergeFunction.hpp
+/home/apaul/src/projectm/src/libprojectM/RenderItemMergeFunction.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Preset.cpp
+/home/apaul/src/projectm/src/libprojectM/Preset.cpp
 Preset.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Preset.hpp
+/home/apaul/src/projectm/src/libprojectM/Preset.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Preset.hpp
+/home/apaul/src/projectm/src/libprojectM/Preset.hpp
 string
 -
 Renderer/BeatDetect.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.hpp
 Renderer/Pipeline.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Pipeline.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Pipeline.hpp
 Renderer/PipelineContext.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PipelineContext.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PipelineContext.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetChooser.cpp
+/home/apaul/src/projectm/src/libprojectM/PresetChooser.cpp
 PresetChooser.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetChooser.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetChooser.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetChooser.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetChooser.hpp
 Preset.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Preset.hpp
+/home/apaul/src/projectm/src/libprojectM/Preset.hpp
 PresetLoader.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetLoader.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetLoader.hpp
 RandomNumberGenerators.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/RandomNumberGenerators.hpp
+/home/apaul/src/projectm/src/libprojectM/RandomNumberGenerators.hpp
 cassert
 -
 memory
@@ -162,37 +162,37 @@ memory
 iostream
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactory.cpp
+/home/apaul/src/projectm/src/libprojectM/PresetFactory.cpp
 PresetFactory.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetFactory.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetFactory.hpp
 Preset.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Preset.hpp
+/home/apaul/src/projectm/src/libprojectM/Preset.hpp
 memory
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactoryManager.cpp
+/home/apaul/src/projectm/src/libprojectM/PresetFactoryManager.cpp
 PresetFactoryManager.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactoryManager.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetFactoryManager.hpp
 MilkdropPresetFactory/MilkdropPresetFactory.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/MilkdropPresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/MilkdropPresetFactory.hpp
 NativePresetFactory/NativePresetFactory.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/NativePresetFactory/NativePresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/NativePresetFactory/NativePresetFactory.hpp
 sstream
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactoryManager.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetFactoryManager.hpp
 PresetFactory.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetFactory.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetLoader.cpp
+/home/apaul/src/projectm/src/libprojectM/PresetLoader.cpp
 PresetLoader.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetLoader.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetLoader.hpp
 Preset.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Preset.hpp
+/home/apaul/src/projectm/src/libprojectM/Preset.hpp
 PresetFactory.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactory.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetFactory.hpp
 iostream
 -
 sstream
@@ -206,11 +206,11 @@ errno.h
 cassert
 -
 fatal.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/fatal.h
+/home/apaul/src/projectm/src/libprojectM/fatal.h
 Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Common.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetLoader.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetLoader.hpp
 string
 -
 memory
@@ -218,7 +218,7 @@ memory
 sys/types.h
 -
 win32-dirent.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/win32-dirent.h
+/home/apaul/src/projectm/src/libprojectM/win32-dirent.h
 dirent.h
 -
 dirent.h
@@ -228,9 +228,9 @@ vector
 map
 -
 PresetFactoryManager.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetFactoryManager.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetFactoryManager.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/RandomNumberGenerators.hpp
+/home/apaul/src/projectm/src/libprojectM/RandomNumberGenerators.hpp
 cmath
 -
 vector
@@ -240,7 +240,7 @@ cassert
 iostream
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/../Common.hpp
 vector
 -
 typeinfo
@@ -252,7 +252,7 @@ cassert
 cstdio
 -
 dlldefs.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/../dlldefs.h
 cstdlib
 -
 float.h
@@ -260,61 +260,61 @@ float.h
 string
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../PCM.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/../PCM.hpp
 dlldefs.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/../dlldefs.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/../dlldefs.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/BeatDetect.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/BeatDetect.hpp
 ../PCM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../PCM.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/../PCM.hpp
 ../dlldefs.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/Renderer/../dlldefs.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Filters.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Filters.hpp
 Renderable.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerPixelMesh.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerPixelMesh.hpp
 vector
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Pipeline.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Pipeline.hpp
 vector
 -
 PerPixelMesh.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PerPixelMesh.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PerPixelMesh.hpp
 Renderable.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.hpp
 Filters.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Filters.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Filters.hpp
 PipelineContext.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PipelineContext.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PipelineContext.hpp
 Shader.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Shader.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Shader.hpp
 ../Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/../Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/../Common.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/PipelineContext.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/PipelineContext.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Renderable.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Renderable.hpp
 vector
 -
 typeinfo
 -
 TextureManager.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/TextureManager.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/TextureManager.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/Shader.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/Shader.hpp
 string
 -
 map
 -
 UserTexture.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/UserTexture.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/UserTexture.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/TextureManager.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/TextureManager.hpp
 iostream
 -
 string
@@ -324,11 +324,11 @@ map
 vector
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/UserTexture.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer/UserTexture.hpp
 string
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/TimeKeeper.cpp
+/home/apaul/src/projectm/src/libprojectM/TimeKeeper.cpp
 sys/time.h
 -
 stdlib.h
@@ -336,27 +336,27 @@ stdlib.h
 GL/gl.h
 -
 glew.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/glew.h
+/home/apaul/src/projectm/src/libprojectM/glew.h
 GL/gl.h
 -
 TimeKeeper.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/TimeKeeper.hpp
+/home/apaul/src/projectm/src/libprojectM/TimeKeeper.hpp
 RandomNumberGenerators.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/RandomNumberGenerators.hpp
+/home/apaul/src/projectm/src/libprojectM/RandomNumberGenerators.hpp
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/TimeKeeper.hpp
+/home/apaul/src/projectm/src/libprojectM/TimeKeeper.hpp
 sys/time.h
 -
 timer.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/timer.h
+/home/apaul/src/projectm/src/libprojectM/timer.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/dlldefs.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/event.h
+/home/apaul/src/projectm/src/libprojectM/event.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/fatal.h
+/home/apaul/src/projectm/src/libprojectM/fatal.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/fftsg.cpp
+/home/apaul/src/projectm/src/libprojectM/fftsg.cpp
 math.h
 -
 pthread.h
@@ -372,9 +372,9 @@ stdio.h
 stdlib.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/fftsg.h
+/home/apaul/src/projectm/src/libprojectM/fftsg.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/glew.h
+/home/apaul/src/projectm/src/libprojectM/glew.h
 stddef.h
 -
 OpenGL/glu.h
@@ -382,59 +382,59 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/projectM.cpp
+/home/apaul/src/projectm/src/libprojectM/projectM.cpp
 RenderItemMatcher.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/RenderItemMatcher.hpp
+/home/apaul/src/projectm/src/libprojectM/RenderItemMatcher.hpp
 RenderItemMergeFunction.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/RenderItemMergeFunction.hpp
+/home/apaul/src/projectm/src/libprojectM/RenderItemMergeFunction.hpp
 fatal.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/fatal.h
+/home/apaul/src/projectm/src/libprojectM/fatal.h
 Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Common.hpp
 win32-dirent.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/win32-dirent.h
+/home/apaul/src/projectm/src/libprojectM/win32-dirent.h
 timer.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/timer.h
+/home/apaul/src/projectm/src/libprojectM/timer.h
 iostream
 -
 time.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/time.h
+/home/apaul/src/projectm/src/libprojectM/time.h
 time.h
 -
 PipelineContext.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PipelineContext.hpp
+/home/apaul/src/projectm/src/libprojectM/PipelineContext.hpp
 iostream
 -
 projectM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/projectM.hpp
+/home/apaul/src/projectm/src/libprojectM/projectM.hpp
 BeatDetect.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/BeatDetect.hpp
+/home/apaul/src/projectm/src/libprojectM/BeatDetect.hpp
 Preset.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Preset.hpp
+/home/apaul/src/projectm/src/libprojectM/Preset.hpp
 PipelineMerger.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PipelineMerger.hpp
+/home/apaul/src/projectm/src/libprojectM/PipelineMerger.hpp
 PCM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PCM.hpp
+/home/apaul/src/projectm/src/libprojectM/PCM.hpp
 map
 -
 Renderer.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer.hpp
+/home/apaul/src/projectm/src/libprojectM/Renderer.hpp
 PresetChooser.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PresetChooser.hpp
+/home/apaul/src/projectm/src/libprojectM/PresetChooser.hpp
 ConfigFile.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/ConfigFile.h
+/home/apaul/src/projectm/src/libprojectM/ConfigFile.h
 TextureManager.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/TextureManager.hpp
+/home/apaul/src/projectm/src/libprojectM/TextureManager.hpp
 TimeKeeper.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/TimeKeeper.hpp
+/home/apaul/src/projectm/src/libprojectM/TimeKeeper.hpp
 RenderItemMergeFunction.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/RenderItemMergeFunction.hpp
+/home/apaul/src/projectm/src/libprojectM/RenderItemMergeFunction.hpp
 pthread.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/pthread.h
+/home/apaul/src/projectm/src/libprojectM/pthread.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/projectM.hpp
+/home/apaul/src/projectm/src/libprojectM/projectM.hpp
 win32-dirent.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/win32-dirent.h
+/home/apaul/src/projectm/src/libprojectM/win32-dirent.h
 dirent.h
 -
 cmath
@@ -452,39 +452,39 @@ sys/types.h
 windows.h
 -
 dlldefs.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/dlldefs.h
+/home/apaul/src/projectm/src/libprojectM/dlldefs.h
 event.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/event.h
+/home/apaul/src/projectm/src/libprojectM/event.h
 fatal.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/fatal.h
+/home/apaul/src/projectm/src/libprojectM/fatal.h
 PCM.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/PCM.hpp
+/home/apaul/src/projectm/src/libprojectM/PCM.hpp
 pthread.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/pthread.h
+/home/apaul/src/projectm/src/libprojectM/pthread.h
 Common.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Common.hpp
+/home/apaul/src/projectm/src/libprojectM/Common.hpp
 memory
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/timer.cpp
+/home/apaul/src/projectm/src/libprojectM/timer.cpp
 timer.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/timer.h
+/home/apaul/src/projectm/src/libprojectM/timer.h
 stdlib.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/timer.h
+/home/apaul/src/projectm/src/libprojectM/timer.h
 sys/time.h
 -
 windows.h
 -
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/win32-dirent.h
+/home/apaul/src/projectm/src/libprojectM/win32-dirent.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/wipemalloc.cpp
+/home/apaul/src/projectm/src/libprojectM/wipemalloc.cpp
 wipemalloc.h
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/wipemalloc.h
+/home/apaul/src/projectm/src/libprojectM/wipemalloc.h
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/wipemalloc.h
+/home/apaul/src/projectm/src/libprojectM/wipemalloc.h
 malloc.h
 -
 string.h

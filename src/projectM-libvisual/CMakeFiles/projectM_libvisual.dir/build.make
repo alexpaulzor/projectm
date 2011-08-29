@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 # Include any dependencies generated for this target.
 include projectM-libvisual/CMakeFiles/projectM_libvisual.dir/depend.make
@@ -51,17 +51,17 @@ include projectM-libvisual/CMakeFiles/projectM_libvisual.dir/flags.make
 
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/actor_projectM.o: projectM-libvisual/CMakeFiles/projectM_libvisual.dir/flags.make
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/actor_projectM.o: projectM-libvisual/actor_projectM.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-libvisual/CMakeFiles/projectM_libvisual.dir/actor_projectM.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM_libvisual.dir/actor_projectM.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/actor_projectM.cpp
+	cd /home/apaul/src/projectm/src/projectM-libvisual && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM_libvisual.dir/actor_projectM.o -c /home/apaul/src/projectm/src/projectM-libvisual/actor_projectM.cpp
 
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/actor_projectM.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM_libvisual.dir/actor_projectM.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/actor_projectM.cpp > CMakeFiles/projectM_libvisual.dir/actor_projectM.i
+	cd /home/apaul/src/projectm/src/projectM-libvisual && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-libvisual/actor_projectM.cpp > CMakeFiles/projectM_libvisual.dir/actor_projectM.i
 
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/actor_projectM.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM_libvisual.dir/actor_projectM.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/actor_projectM.cpp -o CMakeFiles/projectM_libvisual.dir/actor_projectM.s
+	cd /home/apaul/src/projectm/src/projectM-libvisual && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-libvisual/actor_projectM.cpp -o CMakeFiles/projectM_libvisual.dir/actor_projectM.s
 
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/actor_projectM.o.requires:
 .PHONY : projectM-libvisual/CMakeFiles/projectM_libvisual.dir/actor_projectM.o.requires
@@ -74,17 +74,17 @@ projectM-libvisual/CMakeFiles/projectM_libvisual.dir/actor_projectM.o.provides.b
 
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/ConfigFile.o: projectM-libvisual/CMakeFiles/projectM_libvisual.dir/flags.make
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/ConfigFile.o: projectM-libvisual/ConfigFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-libvisual/CMakeFiles/projectM_libvisual.dir/ConfigFile.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM_libvisual.dir/ConfigFile.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/ConfigFile.cpp
+	cd /home/apaul/src/projectm/src/projectM-libvisual && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM_libvisual.dir/ConfigFile.o -c /home/apaul/src/projectm/src/projectM-libvisual/ConfigFile.cpp
 
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/ConfigFile.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM_libvisual.dir/ConfigFile.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/ConfigFile.cpp > CMakeFiles/projectM_libvisual.dir/ConfigFile.i
+	cd /home/apaul/src/projectm/src/projectM-libvisual && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-libvisual/ConfigFile.cpp > CMakeFiles/projectM_libvisual.dir/ConfigFile.i
 
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/ConfigFile.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM_libvisual.dir/ConfigFile.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/ConfigFile.cpp -o CMakeFiles/projectM_libvisual.dir/ConfigFile.s
+	cd /home/apaul/src/projectm/src/projectM-libvisual && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-libvisual/ConfigFile.cpp -o CMakeFiles/projectM_libvisual.dir/ConfigFile.s
 
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/ConfigFile.o.requires:
 .PHONY : projectM-libvisual/CMakeFiles/projectM_libvisual.dir/ConfigFile.o.requires
@@ -120,7 +120,7 @@ projectM-libvisual/libprojectM_libvisual.so: libprojectM/Renderer/libRenderer.a
 projectM-libvisual/libprojectM_libvisual.so: projectM-libvisual/CMakeFiles/projectM_libvisual.dir/build.make
 projectM-libvisual/libprojectM_libvisual.so: projectM-libvisual/CMakeFiles/projectM_libvisual.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libprojectM_libvisual.so"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectM_libvisual.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/apaul/src/projectm/src/projectM-libvisual && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectM_libvisual.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/build: projectM-libvisual/libprojectM_libvisual.so
@@ -131,10 +131,10 @@ projectM-libvisual/CMakeFiles/projectM_libvisual.dir/requires: projectM-libvisua
 .PHONY : projectM-libvisual/CMakeFiles/projectM_libvisual.dir/requires
 
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual && $(CMAKE_COMMAND) -P CMakeFiles/projectM_libvisual.dir/cmake_clean.cmake
+	cd /home/apaul/src/projectm/src/projectM-libvisual && $(CMAKE_COMMAND) -P CMakeFiles/projectM_libvisual.dir/cmake_clean.cmake
 .PHONY : projectM-libvisual/CMakeFiles/projectM_libvisual.dir/clean
 
 projectM-libvisual/CMakeFiles/projectM_libvisual.dir/depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-libvisual/CMakeFiles/projectM_libvisual.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/src/projectm/src /home/apaul/src/projectm/src/projectM-libvisual /home/apaul/src/projectm/src /home/apaul/src/projectm/src/projectM-libvisual /home/apaul/src/projectm/src/projectM-libvisual/CMakeFiles/projectM_libvisual.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : projectM-libvisual/CMakeFiles/projectM_libvisual.dir/depend
 

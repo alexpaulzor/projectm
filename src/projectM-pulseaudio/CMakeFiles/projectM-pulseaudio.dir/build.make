@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 # Include any dependencies generated for this target.
 include projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/depend.make
@@ -51,17 +51,17 @@ include projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/flags.make
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.o: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/flags.make
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.o: projectM-pulseaudio/qprojectM-pulseaudio.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/qprojectM-pulseaudio.cpp
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.o -c /home/apaul/src/projectm/src/projectM-pulseaudio/qprojectM-pulseaudio.cpp
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/qprojectM-pulseaudio.cpp > CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.i
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-pulseaudio/qprojectM-pulseaudio.cpp > CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.i
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/qprojectM-pulseaudio.cpp -o CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.s
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-pulseaudio/qprojectM-pulseaudio.cpp -o CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.s
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.o.requires:
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.o.requires
@@ -74,17 +74,17 @@ projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/qprojectM-pulseaudio.o.pr
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.o: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/flags.make
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.o: projectM-pulseaudio/ConfigFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/ConfigFile.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/ConfigFile.cpp
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/ConfigFile.o -c /home/apaul/src/projectm/src/projectM-pulseaudio/ConfigFile.cpp
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-pulseaudio.dir/ConfigFile.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/ConfigFile.cpp > CMakeFiles/projectM-pulseaudio.dir/ConfigFile.i
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-pulseaudio/ConfigFile.cpp > CMakeFiles/projectM-pulseaudio.dir/ConfigFile.i
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-pulseaudio.dir/ConfigFile.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/ConfigFile.cpp -o CMakeFiles/projectM-pulseaudio.dir/ConfigFile.s
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-pulseaudio/ConfigFile.cpp -o CMakeFiles/projectM-pulseaudio.dir/ConfigFile.s
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.o.requires:
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.o.requires
@@ -97,17 +97,17 @@ projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/ConfigFile.o.provides.bui
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.o: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/flags.make
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.o: projectM-pulseaudio/QPulseAudioThread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioThread.cpp
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.o -c /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioThread.cpp
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioThread.cpp > CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.i
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioThread.cpp > CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.i
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioThread.cpp -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.s
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioThread.cpp -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.s
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.o.requires:
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.o.requires
@@ -120,17 +120,17 @@ projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioThread.o.provi
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.o: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/flags.make
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.o: projectM-pulseaudio/QPulseAudioDeviceChooser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceChooser.cpp
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.o -c /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceChooser.cpp
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceChooser.cpp > CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.i
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceChooser.cpp > CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.i
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceChooser.cpp -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.s
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceChooser.cpp -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.s
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.o.requires:
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.o.requires
@@ -143,17 +143,17 @@ projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceChooser.
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.o: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/flags.make
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.o: projectM-pulseaudio/QPulseAudioDeviceModel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceModel.cpp
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.o -c /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceModel.cpp
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceModel.cpp > CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.i
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceModel.cpp > CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.i
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceModel.cpp -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.s
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceModel.cpp -o CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.s
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.o.requires:
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.o.requires
@@ -166,17 +166,17 @@ projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/QPulseAudioDeviceModel.o.
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.o: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/flags.make
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.o: projectM-pulseaudio/moc_QPulseAudioThread.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioThread.cxx
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.o -c /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioThread.cxx
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioThread.cxx > CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.i
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioThread.cxx > CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.i
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioThread.cxx -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.s
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioThread.cxx -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.s
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.o.requires:
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.o.requires
@@ -189,17 +189,17 @@ projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioThread.o.p
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.o: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/flags.make
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.o: projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.o -c /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx > CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.i
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx > CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.i
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.s
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.s
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.o.requires:
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChooser.o.requires
@@ -212,17 +212,17 @@ projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceChoo
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.o: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/flags.make
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.o: projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.o -c /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx > CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.i
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx > CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.i
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.s
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx -o CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.s
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.o.requires:
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.o.requires
@@ -234,24 +234,24 @@ projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceMode
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.o.provides.build: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/moc_QPulseAudioDeviceModel.o
 
 projectM-pulseaudio/moc_QPulseAudioThread.cxx: projectM-pulseaudio/QPulseAudioThread.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_QPulseAudioThread.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/moc -DLINUX -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioThread.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioThread.hpp
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/moc -DLINUX -o /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioThread.cxx /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioThread.hpp
 
 projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx: projectM-pulseaudio/QPulseAudioDeviceChooser.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_QPulseAudioDeviceChooser.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/moc -DLINUX -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceChooser.hpp
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/moc -DLINUX -o /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceChooser.hpp
 
 projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx: projectM-pulseaudio/QPulseAudioDeviceModel.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_QPulseAudioDeviceModel.cxx"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/moc -DLINUX -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/QPulseAudioDeviceModel.hpp
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/moc -DLINUX -o /home/apaul/src/projectm/src/projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx /home/apaul/src/projectm/src/projectM-pulseaudio/QPulseAudioDeviceModel.hpp
 
 projectM-pulseaudio/ui_PulseDeviceChooserDialog.h: projectM-pulseaudio/PulseDeviceChooserDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_PulseDeviceChooserDialog.h"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && /usr/bin/uic -o /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/ui_PulseDeviceChooserDialog.h /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/PulseDeviceChooserDialog.ui
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && /usr/bin/uic -o /home/apaul/src/projectm/src/projectM-pulseaudio/ui_PulseDeviceChooserDialog.h /home/apaul/src/projectm/src/projectM-pulseaudio/PulseDeviceChooserDialog.ui
 
 # Object files for target projectM-pulseaudio
 projectM__pulseaudio_OBJECTS = \
@@ -296,7 +296,7 @@ projectM-pulseaudio/projectM-pulseaudio: /usr/lib/libQtCore.so
 projectM-pulseaudio/projectM-pulseaudio: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build.make
 projectM-pulseaudio/projectM-pulseaudio: projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable projectM-pulseaudio"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectM-pulseaudio.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectM-pulseaudio.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/build: projectM-pulseaudio/projectM-pulseaudio
@@ -313,13 +313,13 @@ projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/requires: projectM-pulsea
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/requires
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio && $(CMAKE_COMMAND) -P CMakeFiles/projectM-pulseaudio.dir/cmake_clean.cmake
+	cd /home/apaul/src/projectm/src/projectM-pulseaudio && $(CMAKE_COMMAND) -P CMakeFiles/projectM-pulseaudio.dir/cmake_clean.cmake
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/clean
 
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/depend: projectM-pulseaudio/moc_QPulseAudioThread.cxx
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/depend: projectM-pulseaudio/moc_QPulseAudioDeviceChooser.cxx
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/depend: projectM-pulseaudio/moc_QPulseAudioDeviceModel.cxx
 projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/depend: projectM-pulseaudio/ui_PulseDeviceChooserDialog.h
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/src/projectm/src /home/apaul/src/projectm/src/projectM-pulseaudio /home/apaul/src/projectm/src /home/apaul/src/projectm/src/projectM-pulseaudio /home/apaul/src/projectm/src/projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : projectM-pulseaudio/CMakeFiles/projectM-pulseaudio.dir/depend
 

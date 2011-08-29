@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CPackSourceConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/src/projectm/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/Renderer/CMakeFiles/progress.marks
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/Renderer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles /home/apaul/src/projectm/src/libprojectM/Renderer/CMakeFiles/progress.marks
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/Renderer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/Renderer/clean
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/Renderer/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/Renderer/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/Renderer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/Renderer/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/Renderer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libprojectM/Renderer/CMakeFiles/Renderer.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/Renderer/CMakeFiles/Renderer.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 libprojectM/Renderer/CMakeFiles/Renderer.dir/rule
 .PHONY : libprojectM/Renderer/CMakeFiles/Renderer.dir/rule
 
 # Convenience name for target.
@@ -170,337 +170,337 @@ Renderer: libprojectM/Renderer/CMakeFiles/Renderer.dir/rule
 
 # fast build rule for target.
 Renderer/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/build
 .PHONY : Renderer/fast
 
 # target to build an object file
 BeatDetect.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.o
 .PHONY : BeatDetect.o
 
 # target to preprocess a source file
 BeatDetect.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.i
 .PHONY : BeatDetect.i
 
 # target to generate assembly for a file
 BeatDetect.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/BeatDetect.s
 .PHONY : BeatDetect.s
 
 # target to build an object file
 FBO.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.o
 .PHONY : FBO.o
 
 # target to preprocess a source file
 FBO.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.i
 .PHONY : FBO.i
 
 # target to generate assembly for a file
 FBO.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/FBO.s
 .PHONY : FBO.s
 
 # target to build an object file
 Filters.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.o
 .PHONY : Filters.o
 
 # target to preprocess a source file
 Filters.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.i
 .PHONY : Filters.i
 
 # target to generate assembly for a file
 Filters.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Filters.s
 .PHONY : Filters.s
 
 # target to build an object file
 MilkdropWaveform.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.o
 .PHONY : MilkdropWaveform.o
 
 # target to preprocess a source file
 MilkdropWaveform.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.i
 .PHONY : MilkdropWaveform.i
 
 # target to generate assembly for a file
 MilkdropWaveform.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/MilkdropWaveform.s
 .PHONY : MilkdropWaveform.s
 
 # target to build an object file
 PerPixelMesh.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.o
 .PHONY : PerPixelMesh.o
 
 # target to preprocess a source file
 PerPixelMesh.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.i
 .PHONY : PerPixelMesh.i
 
 # target to generate assembly for a file
 PerPixelMesh.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerPixelMesh.s
 .PHONY : PerPixelMesh.s
 
 # target to build an object file
 PerlinNoise.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.o
 .PHONY : PerlinNoise.o
 
 # target to preprocess a source file
 PerlinNoise.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.i
 .PHONY : PerlinNoise.i
 
 # target to generate assembly for a file
 PerlinNoise.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PerlinNoise.s
 .PHONY : PerlinNoise.s
 
 # target to build an object file
 Pipeline.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.o
 .PHONY : Pipeline.o
 
 # target to preprocess a source file
 Pipeline.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.i
 .PHONY : Pipeline.i
 
 # target to generate assembly for a file
 Pipeline.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Pipeline.s
 .PHONY : Pipeline.s
 
 # target to build an object file
 PipelineContext.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.o
 .PHONY : PipelineContext.o
 
 # target to preprocess a source file
 PipelineContext.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.i
 .PHONY : PipelineContext.i
 
 # target to generate assembly for a file
 PipelineContext.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/PipelineContext.s
 .PHONY : PipelineContext.s
 
 # target to build an object file
 RenderItemDistanceMetric.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.o
 .PHONY : RenderItemDistanceMetric.o
 
 # target to preprocess a source file
 RenderItemDistanceMetric.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.i
 .PHONY : RenderItemDistanceMetric.i
 
 # target to generate assembly for a file
 RenderItemDistanceMetric.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemDistanceMetric.s
 .PHONY : RenderItemDistanceMetric.s
 
 # target to build an object file
 RenderItemMatcher.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.o
 .PHONY : RenderItemMatcher.o
 
 # target to preprocess a source file
 RenderItemMatcher.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.i
 .PHONY : RenderItemMatcher.i
 
 # target to generate assembly for a file
 RenderItemMatcher.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/RenderItemMatcher.s
 .PHONY : RenderItemMatcher.s
 
 # target to build an object file
 Renderable.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.o
 .PHONY : Renderable.o
 
 # target to preprocess a source file
 Renderable.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.i
 .PHONY : Renderable.i
 
 # target to generate assembly for a file
 Renderable.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderable.s
 .PHONY : Renderable.s
 
 # target to build an object file
 Renderer.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.o
 .PHONY : Renderer.o
 
 # target to preprocess a source file
 Renderer.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.i
 .PHONY : Renderer.i
 
 # target to generate assembly for a file
 Renderer.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Renderer.s
 .PHONY : Renderer.s
 
 # target to build an object file
 SOIL/SOIL.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.o
 .PHONY : SOIL/SOIL.o
 
 # target to preprocess a source file
 SOIL/SOIL.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.i
 .PHONY : SOIL/SOIL.i
 
 # target to generate assembly for a file
 SOIL/SOIL.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/SOIL.s
 .PHONY : SOIL/SOIL.s
 
 # target to build an object file
 SOIL/image_DXT.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.o
 .PHONY : SOIL/image_DXT.o
 
 # target to preprocess a source file
 SOIL/image_DXT.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.i
 .PHONY : SOIL/image_DXT.i
 
 # target to generate assembly for a file
 SOIL/image_DXT.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_DXT.s
 .PHONY : SOIL/image_DXT.s
 
 # target to build an object file
 SOIL/image_helper.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.o
 .PHONY : SOIL/image_helper.o
 
 # target to preprocess a source file
 SOIL/image_helper.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.i
 .PHONY : SOIL/image_helper.i
 
 # target to generate assembly for a file
 SOIL/image_helper.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/image_helper.s
 .PHONY : SOIL/image_helper.s
 
 # target to build an object file
 SOIL/stb_image_aug.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.o
 .PHONY : SOIL/stb_image_aug.o
 
 # target to preprocess a source file
 SOIL/stb_image_aug.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.i
 .PHONY : SOIL/stb_image_aug.i
 
 # target to generate assembly for a file
 SOIL/stb_image_aug.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/SOIL/stb_image_aug.s
 .PHONY : SOIL/stb_image_aug.s
 
 # target to build an object file
 Shader.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.o
 .PHONY : Shader.o
 
 # target to preprocess a source file
 Shader.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.i
 .PHONY : Shader.i
 
 # target to generate assembly for a file
 Shader.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Shader.s
 .PHONY : Shader.s
 
 # target to build an object file
 ShaderEngine.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.o
 .PHONY : ShaderEngine.o
 
 # target to preprocess a source file
 ShaderEngine.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.i
 .PHONY : ShaderEngine.i
 
 # target to generate assembly for a file
 ShaderEngine.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/ShaderEngine.s
 .PHONY : ShaderEngine.s
 
 # target to build an object file
 TextureManager.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.o
 .PHONY : TextureManager.o
 
 # target to preprocess a source file
 TextureManager.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.i
 .PHONY : TextureManager.i
 
 # target to generate assembly for a file
 TextureManager.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/TextureManager.s
 .PHONY : TextureManager.s
 
 # target to build an object file
 UserTexture.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.o
 .PHONY : UserTexture.o
 
 # target to preprocess a source file
 UserTexture.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.i
 .PHONY : UserTexture.i
 
 # target to generate assembly for a file
 UserTexture.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/UserTexture.s
 .PHONY : UserTexture.s
 
 # target to build an object file
 VideoEcho.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.o
 .PHONY : VideoEcho.o
 
 # target to preprocess a source file
 VideoEcho.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.i
 .PHONY : VideoEcho.i
 
 # target to generate assembly for a file
 VideoEcho.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/VideoEcho.s
 .PHONY : VideoEcho.s
 
 # target to build an object file
 Waveform.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.o
 .PHONY : Waveform.o
 
 # target to preprocess a source file
 Waveform.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.i
 .PHONY : Waveform.i
 
 # target to generate assembly for a file
 Waveform.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f libprojectM/Renderer/CMakeFiles/Renderer.dir/build.make libprojectM/Renderer/CMakeFiles/Renderer.dir/Waveform.s
 .PHONY : Waveform.s
 
 # Help Target
@@ -595,6 +595,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

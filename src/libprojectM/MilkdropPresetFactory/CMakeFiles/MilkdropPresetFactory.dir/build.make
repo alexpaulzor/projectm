@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 # Include any dependencies generated for this target.
 include libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/depend.make
@@ -51,17 +51,17 @@ include libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/f
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.o: libprojectM/MilkdropPresetFactory/BuiltinFuncs.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/BuiltinFuncs.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/BuiltinFuncs.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/BuiltinFuncs.cpp > CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/BuiltinFuncs.cpp > CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/BuiltinFuncs.cpp -o CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/BuiltinFuncs.cpp -o CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFuncs.o.requires
@@ -74,17 +74,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinFu
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.o: libprojectM/MilkdropPresetFactory/Func.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/Func.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Func.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/Func.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Func.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/Func.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Func.cpp > CMakeFiles/MilkdropPresetFactory.dir/Func.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Func.cpp > CMakeFiles/MilkdropPresetFactory.dir/Func.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/Func.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Func.cpp -o CMakeFiles/MilkdropPresetFactory.dir/Func.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Func.cpp -o CMakeFiles/MilkdropPresetFactory.dir/Func.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.o.requires
@@ -97,17 +97,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Func.o.pr
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.o: libprojectM/MilkdropPresetFactory/MilkdropPreset.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/MilkdropPreset.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/MilkdropPreset.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/MilkdropPreset.cpp > CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/MilkdropPreset.cpp > CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/MilkdropPreset.cpp -o CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/MilkdropPreset.cpp -o CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPreset.o.requires
@@ -120,17 +120,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropP
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.o: libprojectM/MilkdropPresetFactory/PresetFrameIO.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PresetFrameIO.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PresetFrameIO.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PresetFrameIO.cpp > CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PresetFrameIO.cpp > CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PresetFrameIO.cpp -o CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PresetFrameIO.cpp -o CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFrameIO.o.requires
@@ -143,17 +143,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PresetFra
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.o: libprojectM/MilkdropPresetFactory/CustomShape.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/CustomShape.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/CustomShape.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/CustomShape.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/CustomShape.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/CustomShape.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/CustomShape.cpp > CMakeFiles/MilkdropPresetFactory.dir/CustomShape.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/CustomShape.cpp > CMakeFiles/MilkdropPresetFactory.dir/CustomShape.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/CustomShape.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/CustomShape.cpp -o CMakeFiles/MilkdropPresetFactory.dir/CustomShape.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/CustomShape.cpp -o CMakeFiles/MilkdropPresetFactory.dir/CustomShape.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomShape.o.requires
@@ -166,17 +166,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomSha
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.o: libprojectM/MilkdropPresetFactory/Eval.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/Eval.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Eval.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/Eval.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Eval.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/Eval.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Eval.cpp > CMakeFiles/MilkdropPresetFactory.dir/Eval.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Eval.cpp > CMakeFiles/MilkdropPresetFactory.dir/Eval.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/Eval.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Eval.cpp -o CMakeFiles/MilkdropPresetFactory.dir/Eval.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Eval.cpp -o CMakeFiles/MilkdropPresetFactory.dir/Eval.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.o.requires
@@ -189,17 +189,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Eval.o.pr
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.o: libprojectM/MilkdropPresetFactory/MilkdropPresetFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/MilkdropPresetFactory.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/MilkdropPresetFactory.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/MilkdropPresetFactory.cpp > CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/MilkdropPresetFactory.cpp > CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/MilkdropPresetFactory.cpp -o CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/MilkdropPresetFactory.cpp -o CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropPresetFactory.o.requires
@@ -212,17 +212,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/MilkdropP
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.o: libprojectM/MilkdropPresetFactory/PerPixelEqn.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PerPixelEqn.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PerPixelEqn.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PerPixelEqn.cpp > CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PerPixelEqn.cpp > CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PerPixelEqn.cpp -o CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PerPixelEqn.cpp -o CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelEqn.o.requires
@@ -235,17 +235,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPixelE
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.o: libprojectM/MilkdropPresetFactory/BuiltinParams.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/BuiltinParams.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/BuiltinParams.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/BuiltinParams.cpp > CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/BuiltinParams.cpp > CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/BuiltinParams.cpp -o CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/BuiltinParams.cpp -o CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinParams.o.requires
@@ -258,17 +258,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/BuiltinPa
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.o: libprojectM/MilkdropPresetFactory/InitCond.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/InitCond.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/InitCond.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/InitCond.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/InitCond.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/InitCond.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/InitCond.cpp > CMakeFiles/MilkdropPresetFactory.dir/InitCond.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/InitCond.cpp > CMakeFiles/MilkdropPresetFactory.dir/InitCond.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/InitCond.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/InitCond.cpp -o CMakeFiles/MilkdropPresetFactory.dir/InitCond.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/InitCond.cpp -o CMakeFiles/MilkdropPresetFactory.dir/InitCond.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.o.requires
@@ -281,17 +281,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/InitCond.
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.o: libprojectM/MilkdropPresetFactory/Parser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/Parser.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Parser.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/Parser.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Parser.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/Parser.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Parser.cpp > CMakeFiles/MilkdropPresetFactory.dir/Parser.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Parser.cpp > CMakeFiles/MilkdropPresetFactory.dir/Parser.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/Parser.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Parser.cpp -o CMakeFiles/MilkdropPresetFactory.dir/Parser.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Parser.cpp -o CMakeFiles/MilkdropPresetFactory.dir/Parser.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.o.requires
@@ -304,17 +304,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Parser.o.
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.o: libprojectM/MilkdropPresetFactory/CustomWave.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/CustomWave.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/CustomWave.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/CustomWave.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/CustomWave.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/CustomWave.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/CustomWave.cpp > CMakeFiles/MilkdropPresetFactory.dir/CustomWave.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/CustomWave.cpp > CMakeFiles/MilkdropPresetFactory.dir/CustomWave.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/CustomWave.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/CustomWave.cpp -o CMakeFiles/MilkdropPresetFactory.dir/CustomWave.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/CustomWave.cpp -o CMakeFiles/MilkdropPresetFactory.dir/CustomWave.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWave.o.requires
@@ -327,17 +327,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/CustomWav
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.o: libprojectM/MilkdropPresetFactory/Expr.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/Expr.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Expr.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/Expr.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Expr.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/Expr.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Expr.cpp > CMakeFiles/MilkdropPresetFactory.dir/Expr.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Expr.cpp > CMakeFiles/MilkdropPresetFactory.dir/Expr.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/Expr.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Expr.cpp -o CMakeFiles/MilkdropPresetFactory.dir/Expr.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Expr.cpp -o CMakeFiles/MilkdropPresetFactory.dir/Expr.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.o.requires
@@ -350,17 +350,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Expr.o.pr
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.o: libprojectM/MilkdropPresetFactory/PerPointEqn.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PerPointEqn.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PerPointEqn.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PerPointEqn.cpp > CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PerPointEqn.cpp > CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PerPointEqn.cpp -o CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PerPointEqn.cpp -o CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointEqn.o.requires
@@ -373,17 +373,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerPointE
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.o: libprojectM/MilkdropPresetFactory/Param.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/Param.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Param.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/Param.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Param.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/Param.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Param.cpp > CMakeFiles/MilkdropPresetFactory.dir/Param.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Param.cpp > CMakeFiles/MilkdropPresetFactory.dir/Param.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/Param.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/Param.cpp -o CMakeFiles/MilkdropPresetFactory.dir/Param.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/Param.cpp -o CMakeFiles/MilkdropPresetFactory.dir/Param.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.o.requires
@@ -396,17 +396,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/Param.o.p
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.o: libprojectM/MilkdropPresetFactory/PerFrameEqn.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PerFrameEqn.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PerFrameEqn.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PerFrameEqn.cpp > CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PerFrameEqn.cpp > CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/PerFrameEqn.cpp -o CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/PerFrameEqn.cpp -o CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameEqn.o.requires
@@ -419,17 +419,17 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/PerFrameE
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.o: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/flags.make
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.o: libprojectM/MilkdropPresetFactory/IdlePreset.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/apaul/src/projectm/src/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.o"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.o -c /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/IdlePreset.cpp
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.o -c /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/IdlePreset.cpp
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.i"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/IdlePreset.cpp > CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.i
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/IdlePreset.cpp > CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.i
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.s"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/IdlePreset.cpp -o CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.s
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/IdlePreset.cpp -o CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.s
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.o.requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/IdlePreset.o.requires
@@ -483,8 +483,8 @@ libprojectM/MilkdropPresetFactory/libMilkdropPresetFactory.a: libprojectM/Milkdr
 libprojectM/MilkdropPresetFactory/libMilkdropPresetFactory.a: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build.make
 libprojectM/MilkdropPresetFactory/libMilkdropPresetFactory.a: libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libMilkdropPresetFactory.a"
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && $(CMAKE_COMMAND) -P CMakeFiles/MilkdropPresetFactory.dir/cmake_clean_target.cmake
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MilkdropPresetFactory.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && $(CMAKE_COMMAND) -P CMakeFiles/MilkdropPresetFactory.dir/cmake_clean_target.cmake
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MilkdropPresetFactory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/build: libprojectM/MilkdropPresetFactory/libMilkdropPresetFactory.a
@@ -510,10 +510,10 @@ libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/requires:
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/requires
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory && $(CMAKE_COMMAND) -P CMakeFiles/MilkdropPresetFactory.dir/cmake_clean.cmake
+	cd /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory && $(CMAKE_COMMAND) -P CMakeFiles/MilkdropPresetFactory.dir/cmake_clean.cmake
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/clean
 
 libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory /home/apaul/Downloads/projectM-complete-2.0.1-Source/src /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apaul/src/projectm/src /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory /home/apaul/src/projectm/src /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libprojectM/MilkdropPresetFactory/CMakeFiles/MilkdropPresetFactory.dir/depend
 

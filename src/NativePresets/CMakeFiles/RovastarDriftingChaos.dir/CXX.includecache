@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/RovastarDriftingChaos.cpp
+/home/apaul/src/projectm/src/NativePresets/RovastarDriftingChaos.cpp
 Pipeline.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/Pipeline.hpp
+/home/apaul/src/projectm/src/NativePresets/Pipeline.hpp
 MilkdropCompatability.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/MilkdropCompatability.hpp
+/home/apaul/src/projectm/src/NativePresets/MilkdropCompatability.hpp
 Transformation.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/Transformation.hpp
+/home/apaul/src/projectm/src/NativePresets/Transformation.hpp
 MilkdropWaveform.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/MilkdropWaveform.hpp
+/home/apaul/src/projectm/src/NativePresets/MilkdropWaveform.hpp
 NativePreset.hpp
-/home/apaul/Downloads/projectM-complete-2.0.1-Source/src/NativePresets/NativePreset.hpp
+/home/apaul/src/projectm/src/NativePresets/NativePreset.hpp
 
 libprojectM/NativePresetFactory/MilkdropCompatability.hpp
 

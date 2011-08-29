@@ -1,4 +1,4 @@
-# Install script for directory: /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/libprojectM/MilkdropPresetFactory
+# Install script for directory: /home/apaul/src/projectm/src/libprojectM/MilkdropPresetFactory
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

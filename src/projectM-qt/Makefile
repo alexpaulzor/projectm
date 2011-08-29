@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_SOURCE_DIR = /home/apaul/src/projectm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apaul/Downloads/projectM-complete-2.0.1-Source/src
+CMAKE_BINARY_DIR = /home/apaul/src/projectm/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -111,7 +111,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CPackSourceConfig.cmake
+	cd /home/apaul/src/projectm/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/apaul/src/projectm/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,14 +130,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/projectM-qt/CMakeFiles/progress.marks
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-qt/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/Downloads/projectM-complete-2.0.1-Source/src/CMakeFiles 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles /home/apaul/src/projectm/src/projectM-qt/CMakeFiles/progress.marks
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-qt/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apaul/src/projectm/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-qt/clean
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-qt/clean
 .PHONY : clean
 
 # The main clean target
@@ -146,22 +146,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-qt/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-qt/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-qt/preinstall
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-qt/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 projectM-qt/CMakeFiles/projectM-qt.dir/rule:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-qt/CMakeFiles/projectM-qt.dir/rule
+	cd /home/apaul/src/projectm/src && $(MAKE) -f CMakeFiles/Makefile2 projectM-qt/CMakeFiles/projectM-qt.dir/rule
 .PHONY : projectM-qt/CMakeFiles/projectM-qt.dir/rule
 
 # Convenience name for target.
@@ -170,277 +170,277 @@ projectM-qt: projectM-qt/CMakeFiles/projectM-qt.dir/rule
 
 # fast build rule for target.
 projectM-qt/fast:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/build
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/build
 .PHONY : projectM-qt/fast
 
 # target to build an object file
 configfile.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/configfile.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/configfile.o
 .PHONY : configfile.o
 
 # target to preprocess a source file
 configfile.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/configfile.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/configfile.i
 .PHONY : configfile.i
 
 # target to generate assembly for a file
 configfile.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/configfile.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/configfile.s
 .PHONY : configfile.s
 
 # target to build an object file
 moc_qplaylistfiledialog.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.o
 .PHONY : moc_qplaylistfiledialog.o
 
 # target to preprocess a source file
 moc_qplaylistfiledialog.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.i
 .PHONY : moc_qplaylistfiledialog.i
 
 # target to generate assembly for a file
 moc_qplaylistfiledialog.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistfiledialog.s
 .PHONY : moc_qplaylistfiledialog.s
 
 # target to build an object file
 moc_qplaylistmodel.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.o
 .PHONY : moc_qplaylistmodel.o
 
 # target to preprocess a source file
 moc_qplaylistmodel.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.i
 .PHONY : moc_qplaylistmodel.i
 
 # target to generate assembly for a file
 moc_qplaylistmodel.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylistmodel.s
 .PHONY : moc_qplaylistmodel.s
 
 # target to build an object file
 moc_qplaylisttableview.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.o
 .PHONY : moc_qplaylisttableview.o
 
 # target to preprocess a source file
 moc_qplaylisttableview.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.i
 .PHONY : moc_qplaylisttableview.i
 
 # target to generate assembly for a file
 moc_qplaylisttableview.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qplaylisttableview.s
 .PHONY : moc_qplaylisttableview.s
 
 # target to build an object file
 moc_qpreseteditordialog.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.o
 .PHONY : moc_qpreseteditordialog.o
 
 # target to preprocess a source file
 moc_qpreseteditordialog.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.i
 .PHONY : moc_qpreseteditordialog.i
 
 # target to generate assembly for a file
 moc_qpreseteditordialog.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpreseteditordialog.s
 .PHONY : moc_qpreseteditordialog.s
 
 # target to build an object file
 moc_qpresetfiledialog.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.o
 .PHONY : moc_qpresetfiledialog.o
 
 # target to preprocess a source file
 moc_qpresetfiledialog.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.i
 .PHONY : moc_qpresetfiledialog.i
 
 # target to generate assembly for a file
 moc_qpresetfiledialog.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresetfiledialog.s
 .PHONY : moc_qpresetfiledialog.s
 
 # target to build an object file
 moc_qpresettextedit.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.o
 .PHONY : moc_qpresettextedit.o
 
 # target to preprocess a source file
 moc_qpresettextedit.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.i
 .PHONY : moc_qpresettextedit.i
 
 # target to generate assembly for a file
 moc_qpresettextedit.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qpresettextedit.s
 .PHONY : moc_qpresettextedit.s
 
 # target to build an object file
 moc_qprojectm.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.o
 .PHONY : moc_qprojectm.o
 
 # target to preprocess a source file
 moc_qprojectm.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.i
 .PHONY : moc_qprojectm.i
 
 # target to generate assembly for a file
 moc_qprojectm.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm.s
 .PHONY : moc_qprojectm.s
 
 # target to build an object file
 moc_qprojectm_mainwindow.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.o
 .PHONY : moc_qprojectm_mainwindow.o
 
 # target to preprocess a source file
 moc_qprojectm_mainwindow.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.i
 .PHONY : moc_qprojectm_mainwindow.i
 
 # target to generate assembly for a file
 moc_qprojectm_mainwindow.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectm_mainwindow.s
 .PHONY : moc_qprojectm_mainwindow.s
 
 # target to build an object file
 moc_qprojectmconfigdialog.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.o
 .PHONY : moc_qprojectmconfigdialog.o
 
 # target to preprocess a source file
 moc_qprojectmconfigdialog.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.i
 .PHONY : moc_qprojectmconfigdialog.i
 
 # target to generate assembly for a file
 moc_qprojectmconfigdialog.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmconfigdialog.s
 .PHONY : moc_qprojectmconfigdialog.s
 
 # target to build an object file
 moc_qprojectmwidget.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.o
 .PHONY : moc_qprojectmwidget.o
 
 # target to preprocess a source file
 moc_qprojectmwidget.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.i
 .PHONY : moc_qprojectmwidget.i
 
 # target to generate assembly for a file
 moc_qprojectmwidget.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/moc_qprojectmwidget.s
 .PHONY : moc_qprojectmwidget.s
 
 # target to build an object file
 qplaylistfiledialog.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.o
 .PHONY : qplaylistfiledialog.o
 
 # target to preprocess a source file
 qplaylistfiledialog.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.i
 .PHONY : qplaylistfiledialog.i
 
 # target to generate assembly for a file
 qplaylistfiledialog.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistfiledialog.s
 .PHONY : qplaylistfiledialog.s
 
 # target to build an object file
 qplaylistmodel.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.o
 .PHONY : qplaylistmodel.o
 
 # target to preprocess a source file
 qplaylistmodel.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.i
 .PHONY : qplaylistmodel.i
 
 # target to generate assembly for a file
 qplaylistmodel.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qplaylistmodel.s
 .PHONY : qplaylistmodel.s
 
 # target to build an object file
 qpreseteditordialog.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.o
 .PHONY : qpreseteditordialog.o
 
 # target to preprocess a source file
 qpreseteditordialog.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.i
 .PHONY : qpreseteditordialog.i
 
 # target to generate assembly for a file
 qpreseteditordialog.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpreseteditordialog.s
 .PHONY : qpreseteditordialog.s
 
 # target to build an object file
 qpresettextedit.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.o
 .PHONY : qpresettextedit.o
 
 # target to preprocess a source file
 qpresettextedit.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.i
 .PHONY : qpresettextedit.i
 
 # target to generate assembly for a file
 qpresettextedit.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qpresettextedit.s
 .PHONY : qpresettextedit.s
 
 # target to build an object file
 qprojectm_mainwindow.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.o
 .PHONY : qprojectm_mainwindow.o
 
 # target to preprocess a source file
 qprojectm_mainwindow.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.i
 .PHONY : qprojectm_mainwindow.i
 
 # target to generate assembly for a file
 qprojectm_mainwindow.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectm_mainwindow.s
 .PHONY : qprojectm_mainwindow.s
 
 # target to build an object file
 qprojectmconfigdialog.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.o
 .PHONY : qprojectmconfigdialog.o
 
 # target to preprocess a source file
 qprojectmconfigdialog.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.i
 .PHONY : qprojectmconfigdialog.i
 
 # target to generate assembly for a file
 qprojectmconfigdialog.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qprojectmconfigdialog.s
 .PHONY : qprojectmconfigdialog.s
 
 # target to build an object file
 qrc_application.o:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.o
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.o
 .PHONY : qrc_application.o
 
 # target to preprocess a source file
 qrc_application.i:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.i
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.i
 .PHONY : qrc_application.i
 
 # target to generate assembly for a file
 qrc_application.s:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.s
+	cd /home/apaul/src/projectm/src && $(MAKE) -f projectM-qt/CMakeFiles/projectM-qt.dir/build.make projectM-qt/CMakeFiles/projectM-qt.dir/qrc_application.s
 .PHONY : qrc_application.s
 
 # Help Target
@@ -523,6 +523,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/apaul/Downloads/projectM-complete-2.0.1-Source/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/apaul/src/projectm/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
